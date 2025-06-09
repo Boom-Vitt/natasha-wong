@@ -1,237 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nuttakarn Wongtippanad - Creative Entrepreneur & COO specializing in AI innovation, digital marketing, and strategic business development. Transforming creative visions into profitable realities.">
-    <meta name="keywords" content="entrepreneur, COO, AI innovation, digital marketing, business strategy, creative director, Thailand">
-    <meta name="author" content="Nuttakarn Wongtippanad">
-    <meta property="og:title" content="Nuttakarn Wongtippanad - Creative Entrepreneur & COO">
-    <meta property="og:description" content="Entrepreneur and COO specializing in creative media and business operations. AI innovation, digital marketing, and strategic business development.">
-    <meta property="og:image" content="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg">
-    <meta property="og:url" content="">
-    <meta property="og:type" content="website">
-    <title>Nuttakarn Wongtippanad - Creative Entrepreneur & COO | Business Innovation</title>
+    <title>Nuttakarn Wongtippanad - Entrepreneur & COO | Portfolio</title>
     
-    <!-- Preload critical resources -->
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dynamic entrepreneur and COO specializing in AI healthcare technology, business innovation, and creative production. MSc from University of Edinburgh.">
+    <meta name="keywords" content="entrepreneur, COO, AI technology, healthcare innovation, business development, Thailand, Edinburgh">
+    <meta name="author" content="Nuttakarn Wongtippanad">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Nuttakarn Wongtippanad - Innovation Leader">
+    <meta property="og:description" content="Transforming innovative ideas into market-ready solutions across healthcare tech, hospitality, and media production.">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/a/ACg8ocLFd2C0iPLUSZWVyPScrmhKXCxi9AkTBxbL-QnwPmkwXaYYRE7k=s769-c-no">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%234A6FA5'/><text x='50' y='60' text-anchor='middle' fill='white' font-size='40' font-family='Arial, sans-serif'>NW</text></svg>">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     
     <style>
-        /* CSS Reset and Base Styles */
-        *, *::before, *::after {
+        :root {
+            /* Color Palette */
+            --primary-blue: #4A6FA5;
+            --accent-blue: #166088;
+            --highlight-blue: #4FC3F7;
+            --neutral-gray: #F8F9FB;
+            --dark-text: #2C3E50;
+            --light-gray: #ECF0F1;
+            --success-green: #27AE60;
+            --warning-orange: #F39C12;
+            --white: #FFFFFF;
+            --off-white: #FAFBFC;
+            --border-gray: #E1E8ED;
+            --shadow: rgba(74, 111, 165, 0.1);
+            
+            /* Typography */
+            --font-primary: 'Inter', sans-serif;
+            --font-secondary: 'Playfair Display', serif;
+            
+            /* Spacing */
+            --section-padding: 80px 0;
+            --container-max-width: 1200px;
+            --border-radius: 12px;
+            --transition: all 0.3s ease;
+        }
+        
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        :root {
-            /* Color Palette */
-            --primary-blue: #4A90E2;
-            --secondary-teal: #50C9CE;
-            --accent-coral: #FF7E79;
-            --neutral-dark: #2C3E50;
-            --neutral-light: #F8FAFC;
-            --success-green: #27AE60;
-            --warning-amber: #F39C12;
-            --white: #FFFFFF;
-            --border-light: #E2E8F0;
-            
-            /* Typography */
-            --font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-            --font-size-xl: clamp(2.5rem, 5vw, 3.5rem);
-            --font-size-lg: clamp(2rem, 4vw, 2.5rem);
-            --font-size-md: clamp(1.25rem, 2.5vw, 1.75rem);
-            --font-size-sm: clamp(1rem, 2vw, 1.25rem);
-            --font-size-base: 1rem;
-            --font-size-xs: 0.875rem;
-            
-            /* Spacing */
-            --spacing-xs: 0.5rem;
-            --spacing-sm: 1rem;
-            --spacing-md: 1.5rem;
-            --spacing-lg: 2rem;
-            --spacing-xl: 3rem;
-            --spacing-2xl: 4rem;
-            
-            /* Layout */
-            --max-width: 1200px;
-            --border-radius: 12px;
-            --border-radius-sm: 8px;
-            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
-            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
-            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
-        }
-
+        
         html {
             scroll-behavior: smooth;
         }
-
+        
         body {
-            font-family: var(--font-family);
+            font-family: var(--font-primary);
             line-height: 1.6;
-            color: var(--neutral-dark);
+            color: var(--dark-text);
             background-color: var(--white);
             overflow-x: hidden;
         }
-
+        
         .container {
-            max-width: var(--max-width);
+            max-width: var(--container-max-width);
             margin: 0 auto;
-            padding: 0 var(--spacing-sm);
+            padding: 0 20px;
         }
-
-        @media (min-width: 768px) {
-            .container {
-                padding: 0 var(--spacing-lg);
-            }
-        }
-
-        /* Header & Navigation */
-        .header {
+        
+        /* Header */
+        header {
             position: fixed;
             top: 0;
-            left: 0;
-            right: 0;
+            width: 100%;
+            height: 80px;
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-gray);
             z-index: 1000;
-            transition: all 0.3s ease;
+            transition: var(--transition);
         }
-
-        .header.scrolled {
-            box-shadow: var(--shadow-sm);
-            background: rgba(255, 255, 255, 0.98);
-        }
-
-        .nav {
+        
+        nav {
             display: flex;
-            align-items: center;
             justify-content: space-between;
-            padding: var(--spacing-sm) 0;
+            align-items: center;
+            height: 100%;
         }
-
+        
         .logo {
-            font-size: var(--font-size-sm);
-            font-weight: 700;
-            color: var(--primary-blue);
-            text-decoration: none;
+            width: 32px;
+            height: 32px;
+            background: var(--primary-blue);
+            color: white;
+            border-radius: 50%;
             display: flex;
             align-items: center;
-            gap: var(--spacing-xs);
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
         }
-
-        .nav-menu {
-            display: none;
+        
+        .nav-links {
+            display: flex;
             list-style: none;
-            gap: var(--spacing-lg);
-            align-items: center;
+            gap: 30px;
+            margin: 0;
         }
-
-        @media (min-width: 768px) {
-            .nav-menu {
-                display: flex;
-            }
-        }
-
-        .nav-link {
-            color: var(--neutral-dark);
+        
+        .nav-links a {
             text-decoration: none;
+            color: var(--dark-text);
             font-weight: 500;
-            transition: color 0.3s ease;
+            transition: var(--transition);
             position: relative;
         }
-
-        .nav-link:hover,
-        .nav-link.active {
+        
+        .nav-links a:hover {
             color: var(--primary-blue);
         }
-
-        .nav-link::after {
+        
+        .nav-links a::after {
             content: '';
             position: absolute;
-            bottom: -4px;
+            bottom: -5px;
             left: 0;
             width: 0;
             height: 2px;
             background: var(--primary-blue);
-            transition: width 0.3s ease;
+            transition: var(--transition);
         }
-
-        .nav-link:hover::after,
-        .nav-link.active::after {
+        
+        .nav-links a:hover::after {
             width: 100%;
         }
-
-        .mobile-menu-toggle {
-            display: block;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            color: var(--neutral-dark);
-            cursor: pointer;
-        }
-
-        @media (min-width: 768px) {
-            .mobile-menu-toggle {
-                display: none;
-            }
-        }
-
-        /* Mobile Menu */
-        .mobile-menu {
-            position: fixed;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background: var(--white);
-            border-top: 1px solid var(--border-light);
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(-20px);
-            transition: all 0.3s ease;
-            z-index: 999;
-        }
-
-        .mobile-menu.active {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-        }
-
-        .mobile-nav {
-            list-style: none;
-            padding: var(--spacing-md);
-        }
-
-        .mobile-nav-link {
-            display: block;
-            padding: var(--spacing-sm);
-            color: var(--neutral-dark);
+        
+        .resume-btn {
+            background: var(--primary-blue);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
             text-decoration: none;
             font-weight: 500;
-            border-bottom: 1px solid var(--border-light);
-            transition: color 0.3s ease;
+            transition: var(--transition);
         }
-
-        .mobile-nav-link:hover {
-            color: var(--primary-blue);
+        
+        .resume-btn:hover {
+            background: var(--accent-blue);
+            transform: translateY(-2px);
         }
-
+        
+        .mobile-menu {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        
         /* Hero Section */
         .hero {
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-teal) 100%);
-            color: var(--white);
+            background: linear-gradient(135deg, var(--neutral-gray) 0%, var(--off-white) 100%);
             position: relative;
             overflow: hidden;
         }
-
+        
         .hero::before {
             content: '';
             position: absolute;
@@ -239,638 +183,22 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.08)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.06)"/></svg>');
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234FC3F7' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
             animation: float 20s ease-in-out infinite;
         }
-
+        
         @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(180deg); }
-        }
-
-        .hero-content {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: var(--spacing-xl);
-            align-items: center;
-        }
-
-        @media (min-width: 768px) {
-            .hero-content {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        .hero-text {
-            z-index: 2;
-        }
-
-        .hero-title {
-            font-size: var(--font-size-xl);
-            font-weight: 700;
-            margin-bottom: var(--spacing-md);
-            line-height: 1.2;
-        }
-
-        .hero-title-th {
-            font-size: var(--font-size-lg);
-            color: var(--secondary-teal);
-            margin-bottom: var(--spacing-xs);
-            font-weight: 600;
-        }
-
-        .hero-subtitle {
-            font-size: var(--font-size-sm);
-            margin-bottom: var(--spacing-lg);
-            opacity: 0.9;
-            line-height: 1.5;
-        }
-
-        .hero-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: var(--spacing-md);
-            margin-bottom: var(--spacing-lg);
-        }
-
-        .stat {
-            text-align: center;
-            padding: var(--spacing-sm);
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: var(--border-radius-sm);
-            backdrop-filter: blur(10px);
-        }
-
-        .stat-number {
-            font-size: var(--font-size-md);
-            font-weight: 700;
-            display: block;
-        }
-
-        .stat-label {
-            font-size: var(--font-size-xs);
-            opacity: 0.8;
-        }
-
-        .hero-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: var(--spacing-sm);
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: var(--spacing-xs);
-            padding: var(--spacing-sm) var(--spacing-lg);
-            border-radius: var(--border-radius-sm);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: var(--font-size-base);
-            transition: all 0.3s ease;
-            cursor: pointer;
-            border: none;
-        }
-
-        .btn-primary {
-            background: var(--white);
-            color: var(--primary-blue);
-            box-shadow: var(--shadow-md);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--white);
-            border: 2px solid var(--white);
-        }
-
-        .btn-secondary:hover {
-            background: var(--white);
-            color: var(--primary-blue);
-        }
-
-        .hero-image {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            z-index: 2;
-        }
-
-        .hero-avatar {
-            width: 280px;
-            height: 280px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 6px solid rgba(255, 255, 255, 0.2);
-            box-shadow: var(--shadow-lg);
-            animation: profileFloat 6s ease-in-out infinite;
-        }
-
-        @keyframes profileFloat {
             0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
+            50% { transform: translateY(-20px); }
         }
-
-        @media (max-width: 767px) {
-            .hero-avatar {
-                width: 200px;
-                height: 200px;
-            }
-        }
-
-        /* Section Styles */
-        .section {
-            padding: var(--spacing-2xl) 0;
-        }
-
-        .section-header {
+        
+        .hero-content {
             text-align: center;
-            margin-bottom: var(--spacing-xl);
-        }
-
-        .section-title {
-            font-size: var(--font-size-lg);
-            font-weight: 700;
-            margin-bottom: var(--spacing-sm);
-            color: var(--neutral-dark);
-        }
-
-        .section-title-th {
-            font-size: var(--font-size-md);
-            color: var(--primary-blue);
-            margin-bottom: var(--spacing-xs);
-            font-weight: 600;
-        }
-
-        .section-subtitle {
-            font-size: var(--font-size-base);
-            color: #64748B;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        /* About Section */
-        .about-content {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: var(--spacing-xl);
-            align-items: center;
-        }
-
-        @media (min-width: 768px) {
-            .about-content {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        .about-text {
-            font-size: var(--font-size-base);
-            line-height: 1.7;
-            margin-bottom: var(--spacing-md);
-        }
-
-        .about-highlights {
-            list-style: none;
-            margin-top: var(--spacing-md);
-        }
-
-        .highlight {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-xs);
-            margin-bottom: var(--spacing-xs);
-            font-weight: 500;
-        }
-
-        .highlight-icon {
-            color: var(--success-green);
-            font-size: 1.2rem;
-        }
-
-        .about-image-container {
             position: relative;
-            display: flex;
-            justify-content: center;
+            z-index: 2;
+            animation: fadeInUp 1s ease-out;
         }
-
-        .about-decoration {
-            position: absolute;
-            top: -20px;
-            right: -20px;
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(45deg, var(--accent-coral), var(--secondary-teal));
-            border-radius: 50%;
-            opacity: 0.1;
-            z-index: -1;
-        }
-
-        /* Projects Section */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: var(--spacing-lg);
-        }
-
-        .project-card {
-            background: var(--white);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-sm);
-            overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
-        }
-
-        .project-card:hover {
-            transform: translateY(-8px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .project-image {
-            height: 200px;
-            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-teal));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--white);
-            font-size: 3rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .project-image::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="0,0 100,0 80,100 0,100" fill="rgba(255,255,255,0.1)"/></svg>');
-            background-size: cover;
-        }
-
-        .project-content {
-            padding: var(--spacing-md);
-        }
-
-        .project-title {
-            font-size: var(--font-size-sm);
-            font-weight: 600;
-            margin-bottom: var(--spacing-xs);
-            color: var(--neutral-dark);
-        }
-
-        .project-title-th {
-            font-size: var(--font-size-base);
-            color: var(--primary-blue);
-            font-weight: 500;
-            margin-bottom: var(--spacing-xs);
-        }
-
-        .project-role {
-            font-size: var(--font-size-xs);
-            color: var(--accent-coral);
-            font-weight: 500;
-            margin-bottom: var(--spacing-sm);
-        }
-
-        .project-description {
-            font-size: var(--font-size-xs);
-            line-height: 1.6;
-            margin-bottom: var(--spacing-md);
-            color: #64748B;
-        }
-
-        .project-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: var(--spacing-xs);
-            margin-bottom: var(--spacing-md);
-        }
-
-        .tag {
-            background: var(--neutral-light);
-            color: var(--neutral-dark);
-            padding: 4px 8px;
-            border-radius: 16px;
-            font-size: 0.75rem;
-            font-weight: 500;
-        }
-
-        .project-link {
-            color: var(--primary-blue);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: var(--font-size-xs);
-            display: inline-flex;
-            align-items: center;
-            gap: var(--spacing-xs);
-            transition: color 0.3s ease;
-        }
-
-        .project-link:hover {
-            color: var(--secondary-teal);
-        }
-
-        /* Skills Section */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: var(--spacing-lg);
-        }
-
-        .skill-category {
-            background: var(--white);
-            padding: var(--spacing-lg);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .category-title {
-            font-size: var(--font-size-sm);
-            font-weight: 600;
-            margin-bottom: var(--spacing-md);
-            color: var(--neutral-dark);
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-xs);
-        }
-
-        .category-title-th {
-            font-size: var(--font-size-base);
-            color: var(--primary-blue);
-            font-weight: 500;
-        }
-
-        .category-icon {
-            font-size: 1.5rem;
-            color: var(--primary-blue);
-        }
-
-        .skill-item {
-            margin-bottom: var(--spacing-md);
-        }
-
-        .skill-name {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: var(--spacing-xs);
-            font-weight: 500;
-        }
-
-        .skill-progress {
-            height: 8px;
-            background: var(--neutral-light);
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .skill-bar {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary-blue), var(--secondary-teal));
-            border-radius: 4px;
-            width: 0%;
-            transition: width 1s ease-in-out 0.2s;
-        }
-
-        .skill-item.animate .skill-bar {
-            width: var(--skill-width);
-        }
-
-        /* Timeline Section */
-        .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 50%;
-            width: 2px;
-            height: 100%;
-            background: var(--border-light);
-            transform: translateX(-50%);
-        }
-
-        @media (max-width: 767px) {
-            .timeline::before {
-                left: 20px;
-            }
-        }
-
-        .timeline-item {
-            position: relative;
-            margin-bottom: var(--spacing-xl);
-        }
-
-        .timeline-item:nth-child(even) .timeline-content {
-            margin-left: auto;
-        }
-
-        @media (max-width: 767px) {
-            .timeline-item:nth-child(even) .timeline-content {
-                margin-left: 0;
-            }
-        }
-
-        .timeline-content {
-            width: calc(50% - 30px);
-            background: var(--white);
-            padding: var(--spacing-md);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-sm);
-            position: relative;
-        }
-
-        @media (max-width: 767px) {
-            .timeline-content {
-                width: calc(100% - 60px);
-                margin-left: 40px;
-            }
-        }
-
-        .timeline-year {
-            font-size: var(--font-size-sm);
-            font-weight: 700;
-            color: var(--primary-blue);
-            margin-bottom: var(--spacing-xs);
-        }
-
-        .timeline-title {
-            font-size: var(--font-size-base);
-            font-weight: 600;
-            margin-bottom: var(--spacing-xs);
-        }
-
-        .timeline-description {
-            font-size: var(--font-size-xs);
-            color: #64748B;
-            line-height: 1.6;
-        }
-
-        .timeline-dot {
-            position: absolute;
-            top: 20px;
-            left: 50%;
-            width: 16px;
-            height: 16px;
-            background: var(--primary-blue);
-            border: 4px solid var(--white);
-            border-radius: 50%;
-            transform: translateX(-50%);
-            box-shadow: var(--shadow-sm);
-        }
-
-        @media (max-width: 767px) {
-            .timeline-dot {
-                left: 20px;
-            }
-        }
-
-        /* Contact Section */
-        .contact {
-            background: linear-gradient(135deg, var(--neutral-light) 0%, var(--white) 100%);
-        }
-
-        .contact-content {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: var(--spacing-xl);
-        }
-
-        @media (min-width: 768px) {
-            .contact-content {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        .contact-info h3 {
-            font-size: var(--font-size-md);
-            font-weight: 600;
-            margin-bottom: var(--spacing-md);
-            color: var(--neutral-dark);
-        }
-
-        .contact-info h4 {
-            font-size: var(--font-size-sm);
-            color: var(--primary-blue);
-            font-weight: 500;
-            margin-bottom: var(--spacing-sm);
-        }
-
-        .contact-info p {
-            margin-bottom: var(--spacing-md);
-            line-height: 1.7;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-sm);
-            margin-bottom: var(--spacing-md);
-        }
-
-        .contact-icon {
-            width: 40px;
-            height: 40px;
-            background: var(--primary-blue);
-            color: var(--white);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
-
-        .contact-form {
-            background: var(--white);
-            padding: var(--spacing-lg);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-md);
-        }
-
-        .form-group {
-            margin-bottom: var(--spacing-md);
-        }
-
-        .form-label {
-            display: block;
-            margin-bottom: var(--spacing-xs);
-            font-weight: 500;
-            color: var(--neutral-dark);
-        }
-
-        .form-input,
-        .form-textarea {
-            width: 100%;
-            padding: var(--spacing-sm);
-            border: 2px solid var(--border-light);
-            border-radius: var(--border-radius-sm);
-            font-family: inherit;
-            font-size: var(--font-size-base);
-            transition: border-color 0.3s ease;
-        }
-
-        .form-input:focus,
-        .form-textarea:focus {
-            outline: none;
-            border-color: var(--primary-blue);
-        }
-
-        .form-textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-
-        .social-links {
-            display: flex;
-            gap: var(--spacing-sm);
-            margin-top: var(--spacing-md);
-        }
-
-        .social-link {
-            width: 44px;
-            height: 44px;
-            background: var(--neutral-light);
-            color: var(--neutral-dark);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .social-link:hover {
-            background: var(--primary-blue);
-            color: var(--white);
-            transform: translateY(-2px);
-        }
-
-        /* Footer */
-        .footer {
-            background: var(--neutral-dark);
-            color: var(--white);
-            text-align: center;
-            padding: var(--spacing-lg) 0;
-        }
-
-        .footer p {
-            opacity: 0.8;
-            font-size: var(--font-size-xs);
-        }
-
-        /* Animations */
+        
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -881,343 +209,967 @@
                 transform: translateY(0);
             }
         }
-
-        @keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
+        
+        .hero-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            border: 5px solid white;
+            box-shadow: 0 20px 40px var(--shadow);
+            animation: profileFloat 6s ease-in-out infinite;
         }
-
-        @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                transform: translateX(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
+        
+        @keyframes profileFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
         }
-
-        .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease;
+        
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
         }
-
-        .animate-on-scroll.animated {
-            opacity: 1;
-            transform: translateY(0);
+        
+        .hero h1 {
+            font-family: var(--font-secondary);
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--dark-text);
         }
-
-        /* Utility Classes */
-        .text-center { text-align: center; }
-        .text-primary { color: var(--primary-blue); }
-        .text-secondary { color: var(--secondary-teal); }
-        .text-accent { color: var(--accent-coral); }
-        .bg-light { background-color: var(--neutral-light); }
-        .mb-0 { margin-bottom: 0; }
-        .mt-0 { margin-top: 0; }
-
+        
+        .hero .subtitle {
+            font-size: 24px;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .hero .description {
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            color: var(--dark-text);
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: var(--success-green);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #229954;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(39, 174, 96, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--primary-blue);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        /* Section Styles */
+        section {
+            padding: var(--section-padding);
+        }
+        
+        .section-title {
+            font-size: 36px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--dark-text);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: var(--primary-blue);
+            border-radius: 2px;
+        }
+        
+        /* About Section */
+        .about {
+            background: var(--neutral-gray);
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        
+        .about-text {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .stat-item {
+            background: white;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+        
+        .stat-number {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: var(--dark-text);
+            opacity: 0.8;
+        }
+        
+        .quick-facts {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+        
+        .quick-facts h3 {
+            margin-bottom: 20px;
+            color: var(--primary-blue);
+        }
+        
+        .fact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .fact-item i {
+            width: 20px;
+            color: var(--primary-blue);
+            margin-right: 10px;
+        }
+        
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 4px 15px var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 35px rgba(74, 111, 165, 0.15);
+        }
+        
+        .project-card.featured {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        
+        .project-image {
+            height: 200px;
+            background: var(--light-gray);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .project-card.featured .project-image {
+            height: 300px;
+        }
+        
+        .project-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, var(--primary-blue), var(--highlight-blue));
+            opacity: 0.8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .project-image::after {
+            content: '🚀';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+        }
+        
+        .project-content {
+            padding: 25px;
+        }
+        
+        .project-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--dark-text);
+        }
+        
+        .project-card.featured .project-title {
+            font-size: 28px;
+        }
+        
+        .project-role {
+            color: var(--primary-blue);
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .project-description {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: var(--dark-text);
+            opacity: 0.9;
+        }
+        
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .tag {
+            background: var(--light-gray);
+            color: var(--primary-blue);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .project-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .project-link {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+        
+        .project-link:hover {
+            color: var(--accent-blue);
+        }
+        
+        /* Skills Section */
+        .skills {
+            background: var(--neutral-gray);
+        }
+        
+        .skills-filter {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 20px;
+            background: white;
+            border: 2px solid var(--border-gray);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+        
+        .filter-btn.active,
+        .filter-btn:hover {
+            background: var(--primary-blue);
+            color: white;
+            border-color: var(--primary-blue);
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .skill-category {
+            background: white;
+            padding: 25px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+        
+        .category-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 8px 0;
+        }
+        
+        .skill-name {
+            font-weight: 500;
+        }
+        
+        .skill-level {
+            font-size: 14px;
+            color: var(--primary-blue);
+            font-weight: 600;
+        }
+        
+        .skill-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--light-gray);
+            border-radius: 3px;
+            margin-top: 5px;
+            overflow: hidden;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-blue), var(--highlight-blue));
+            border-radius: 3px;
+            transition: width 1s ease-out;
+        }
+        
+        /* Experience Timeline */
+        .timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: var(--primary-blue);
+            transform: translateX(-50%);
+        }
+        
+        .timeline-item {
+            display: flex;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        
+        .timeline-content {
+            background: white;
+            padding: 25px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px var(--shadow);
+            width: calc(50% - 30px);
+            position: relative;
+        }
+        
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: 60px;
+        }
+        
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: 60px;
+        }
+        
+        .timeline-date {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--primary-blue);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+        
+        .timeline-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--dark-text);
+        }
+        
+        .timeline-company {
+            color: var(--primary-blue);
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-description {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--dark-text);
+            opacity: 0.9;
+        }
+        
+        /* Contact Section */
+        .contact {
+            background: var(--neutral-gray);
+        }
+        
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+        
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+        
+        .contact-form h3 {
+            margin-bottom: 30px;
+            color: var(--dark-text);
+            font-size: 24px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: var(--dark-text);
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid var(--border-gray);
+            border-radius: 6px;
+            font-family: inherit;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .contact-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+        
+        .contact-card h4 {
+            margin-bottom: 20px;
+            color: var(--primary-blue);
+            font-size: 18px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .contact-item i {
+            width: 20px;
+            color: var(--primary-blue);
+            margin-right: 15px;
+        }
+        
+        .opportunities {
+            margin-top: 20px;
+        }
+        
+        .opportunities h5 {
+            margin-bottom: 10px;
+            color: var(--dark-text);
+        }
+        
+        .opportunities ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .opportunities li {
+            padding: 5px 0;
+            color: var(--dark-text);
+            opacity: 0.8;
+        }
+        
+        .opportunities li::before {
+            content: '•';
+            color: var(--primary-blue);
+            margin-right: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--dark-text);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .footer-content {
+            margin-bottom: 20px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 24px;
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            color: var(--highlight-blue);
+            transform: translateY(-3px);
+        }
+        
         /* Responsive Design */
-        @media (max-width: 480px) {
-            :root {
-                --font-size-xl: 2.25rem;
-                --font-size-lg: 1.875rem;
-                --spacing-xl: 2rem;
-                --spacing-2xl: 3rem;
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
             }
             
-            .hero-buttons {
-                justify-content: center;
+            .mobile-menu {
+                display: block;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero .subtitle {
+                font-size: 20px;
+            }
+            
+            .hero .description {
+                font-size: 16px;
+            }
+            
+            .hero-image {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .project-card.featured {
+                grid-template-columns: 1fr;
             }
             
             .projects-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .contact-form {
+                padding: 25px;
+            }
+            
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item {
+                flex-direction: row !important;
+            }
+            
+            .timeline-content {
+                width: calc(100% - 60px);
+                margin-left: 60px !important;
+                margin-right: 0 !important;
+            }
+            
+            .timeline-date {
+                left: 20px;
+                transform: translateY(-50%);
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
         }
-
-        /* Loading Animation */
-        .loading {
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .hero {
+                padding: 20px 0;
+            }
+            
+            .section-title {
+                font-size: 24px;
+            }
+            
+            .skills-filter {
+                gap: 10px;
+            }
+            
+            .filter-btn {
+                padding: 6px 15px;
+                font-size: 14px;
+            }
+        }
+        
+        /* Animation utilities */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Preloader */
+        .preloader {
             position: fixed;
             top: 0;
             left: 0;
-            right: 0;
-            bottom: 0;
-            background: var(--white);
+            width: 100%;
+            height: 100%;
+            background: white;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             z-index: 9999;
-            opacity: 1;
-            transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease-out;
         }
-
-        .loading.fade-out {
+        
+        .preloader.fade-out {
             opacity: 0;
             pointer-events: none;
         }
-
+        
         .spinner {
-            width: 40px;
-            height: 40px;
-            border: 4px solid var(--border-light);
-            border-top: 4px solid var(--primary-blue);
+            width: 50px;
+            height: 50px;
+            border: 5px solid var(--light-gray);
+            border-top: 5px solid var(--primary-blue);
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
-
+        
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
-
-        /* Scroll Progress Bar */
-        .scroll-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 0%;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary-blue), var(--secondary-teal));
-            z-index: 1001;
-            transition: width 0.1s ease;
-        }
     </style>
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div class="loading" id="loading">
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
         <div class="spinner"></div>
     </div>
 
-    <!-- Scroll Progress Bar -->
-    <div class="scroll-progress" id="scrollProgress"></div>
-
     <!-- Header -->
-    <header class="header" id="header">
+    <header>
         <nav class="container">
-            <div class="nav">
-                <a href="#home" class="logo">
-                    <i class="fas fa-code"></i>
-                    NK
-                </a>
-                <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
-                    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
-                    <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
-                    <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
-                    <li><a href="#journey" class="nav-link" data-section="journey">Journey</a></li>
-                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
-                </ul>
-                <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                    <i class="fas fa-bars"></i>
-                </button>
+            <div class="logo">NW</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About / เกี่ยวกับ</a></li>
+                <li><a href="#projects">Projects / โครงการ</a></li>
+                <li><a href="#skills">Skills / ทักษะ</a></li>
+                <li><a href="#experience">Experience / ประสบการณ์</a></li>
+                <li><a href="#contact">Contact / ติดต่อ</a></li>
+            </ul>
+            <a href="#" class="resume-btn" onclick="downloadResume()">
+                <i class="fas fa-download"></i> Resume
+            </a>
+            <div class="mobile-menu" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
             </div>
         </nav>
-        <div class="mobile-menu" id="mobileMenu">
-            <ul class="mobile-nav">
-                <li><a href="#home" class="mobile-nav-link" data-section="home">Home</a></li>
-                <li><a href="#about" class="mobile-nav-link" data-section="about">About</a></li>
-                <li><a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a></li>
-                <li><a href="#skills" class="mobile-nav-link" data-section="skills">Skills</a></li>
-                <li><a href="#journey" class="mobile-nav-link" data-section="journey">Journey</a></li>
-                <li><a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a></li>
-            </ul>
-        </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
+    <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <div class="hero-text animate-on-scroll">
-                    <h2 class="hero-title-th">ผู้ประกอบการสร้างสรรค์ และ ผู้อำนวยการฝ่ายปฏิบัติการ</h2>
-                    <h1 class="hero-title">Creative Innovation Meets Strategic Execution</h1>
-                    <p class="hero-subtitle">
-                        เป็นผู้ประกอบการและผู้อำนวยการฝ่ายปฏิบัติการที่เชี่ยวชาญในการผสมผสานความเชี่ยวชาญด้านสื่อสร้างสรรค์กับการดำเนินธุรกิจเชิงข้อมูล เปลี่ยนแนวคิดใหม่ให้กลายเป็นความสำเร็จที่สร้างกำไรได้จริง
-                        <br><br>
-                        Entrepreneur & COO transforming ambitious visions into profitable realities through the perfect blend of creative media expertise and data-driven business operations.
-                    </p>
-                    <div class="hero-stats">
-                        <div class="stat">
-                            <span class="stat-number">3+</span>
-                            <span class="stat-label">Industries<br>อุตสาหกรรม</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">AI</span>
-                            <span class="stat-label">Solutions<br>โซลูชัน</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">MSc</span>
-                            <span class="stat-label">Student<br>นักศึกษา</span>
-                        </div>
-                    </div>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">
-                            <i class="fas fa-rocket"></i>
-                            Explore My Work
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            <i class="fas fa-envelope"></i>
-                            Get In Touch
-                        </a>
-                    </div>
+                <div class="hero-image">
+                    <img src="https://lh3.googleusercontent.com/a/ACg8ocLFd2C0iPLUSZWVyPScrmhKXCxi9AkTBxbL-QnwPmkwXaYYRE7k=s769-c-no" alt="Nuttakarn Wongtippanad" loading="lazy">
                 </div>
-                <div class="hero-image animate-on-scroll">
-                    <img src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=aaC4mdWtmr8Q7kNvwGT8qQy&_nc_oc=AdlKEV8JWd--ww4zSO7DetJsjyceRBIFpmVm1xF0eoy3ZA7UlmtmesZ8Caf_j6GRz9zKtlyL67xTI5JhoxItpRiC&_nc_zt=24&_nc_ht=scontent.fkkc3-1.fna&_nc_gid=9FZRe_QmkBz_bKO2ksHsYA&oh=00_AfMYesyp026c5vyfXeGTFs_OkuBTPueGC2ZOFDEUwwyMCA&oe=684CC297" 
-                         alt="Nuttakarn Wongtippanad - Creative Entrepreneur & COO" 
-                         class="hero-avatar">
+                <h1>Nuttakarn Wongtippanad</h1>
+                <div class="subtitle">Transforming Innovation Into Impact<br>การแปลงนวัตกรรมสู่ผลกระทบที่แท้จริง</div>
+                <p class="description">
+                    Dynamic entrepreneur and COO bridging technology, creativity, and business operations to drive growth across healthcare tech, hospitality, and media production.
+                    <br><br>
+                    ผู้ประกอบการและ COO ที่เชื่อมโยงเทคโนโลยี ความคิดสร้างสรรค์ และการดำเนินธุรกิจเพื่อขับเคลื่อนการเติบโตในด้านเทคโนโลยีการดูแลสุขภาพ การบริการ และการผลิตสื่อ
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Explore My Work / ดูผลงาน
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Let's Connect / ติดต่อ
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="section" id="about">
+    <section id="about" class="about">
         <div class="container">
-            <div class="section-header animate-on-scroll">
-                <h3 class="section-title-th">การเชื่อมโยงความคิดสร้างสรรค์กับการค้า</h3>
-                <h2 class="section-title">Bridging Creativity & Commerce</h2>
-                <p class="section-subtitle">
-                    ผู้เชี่ยวชาญในจุดตัดที่หายากระหว่างการผลิตสื่อสร้างสรรค์และการดำเนินธุรกิจเชิงกลยุทธ์
-                    <br>
-                    Specializing in the rare intersection of creative media production and strategic business operations
-                </p>
-            </div>
+            <h2 class="section-title">About Me / เกี่ยวกับฉัน</h2>
             <div class="about-content">
-                <div class="about-text animate-on-scroll">
-                    <p>
-                        ในฐานะผู้ประกอบการหลากหลายสาขาและผู้อำนวยการฝ่ายปฏิบัติการ ข้าพเจ้าเชี่ยวชาญในจุดตัดที่หายากระหว่างการผลิตสื่อสร้างสรรค์และการดำเนินธุรกิจเชิงกลยุทธ์ ปัจจุบันกำลังศึกษาปริญญาโทด้านการประกอบการและนวัตกรรม โดยนำมุมมองเฉพาะตัวที่เปลี่ยนแนวคิดสร้างสรรค์ให้กลายเป็นธุรกิจขยายตัวได้
+                <div>
+                    <p class="about-text">
+                        Dynamic entrepreneur and COO with an MSc in Entrepreneurship and Innovation from The University of Edinburgh. I specialize in transforming innovative ideas into market-ready solutions, with expertise spanning AI healthcare technology, hospitality operations, and media production.
                     </p>
-                    <p>
-                        As a multidisciplinary entrepreneur and Chief Operating Officer, I specialize in the rare intersection of creative media production and strategic business operations. Currently pursuing my MSc in Entrepreneurship and Innovation, I bring a unique perspective that transforms creative concepts into scalable business ventures.
+                    <p class="about-text">
+                        ผู้ประกอบการและ COO ที่มีประสบการณ์หลากหลาย จบการศึกษาระดับปริญญาโทสาขาการเป็นผู้ประกอบการและนวัตกรรมจาก University of Edinburgh ฉันเชี่ยวชาญในการแปลงแนวคิดนวัตกรรมให้เป็นโซลูชันที่พร้อมสู่ตลาด โดยมีความเชี่ยวชาญครอบคลุมเทคโนโลยี AI ด้านการดูแลสุขภาพ การดำเนินธุรกิจบริการ และการผลิตสื่อ
                     </p>
-                    <p>
-                        แนวทางของข้าพเจ้าผสมผสานการวิเคราะห์เชิงข้อมูลกับการเล่าเรื่องที่เป็นนวัตกรรม ไม่ว่าจะเป็นการพัฒนาโซลูชันด้านสุขภาพที่ใช้ปัญญาประดิษฐ์ การขยายธุรกิจร้านอาหาร หรือการกำกับเรื่องเล่าภาพที่น่าสนใจ ความเชี่ยวชาญผสมผสานนี้ช่วยให้มองเห็นโอกาสที่ผู้อื่นไม่เห็น และดำเนินการโซลูชันที่สร้างความประทับใจทั้งในแง่สร้างสรรค์และเชิงการค้า
+                    <p class="about-text">
+                        My unique approach combines technical acumen, creative storytelling, and business leadership to drive measurable growth across diverse industries.
                     </p>
-                    <ul class="about-highlights">
-                        <li class="highlight">
-                            <i class="fas fa-check-circle highlight-icon"></i>
-                            <span>นวัตกรรมข้ามอุตสาหกรรม (สื่อ + เทคโนโลยี + การบริการ) / Cross-Industry Innovation</span>
-                        </li>
-                        <li class="highlight">
-                            <i class="fas fa-check-circle highlight-icon"></i>
-                            <span>การดำเนินการครบวงจร (กลยุทธ์สู่การปฏิบัติ) / End-to-End Execution</span>
-                        </li>
-                        <li class="highlight">
-                            <i class="fas fa-check-circle highlight-icon"></i>
-                            <span>การผสานปัญญาประดิษฐ์และเทคโนโลยีใหม่ / AI & Emerging Technology Integration</span>
-                        </li>
-                        <li class="highlight">
-                            <i class="fas fa-check-circle highlight-icon"></i>
-                            <span>ผลตอบแทนจากความคิดสร้างสรรค์ที่วัดได้ / Measurable Creative ROI</span>
-                        </li>
-                    </ul>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Leadership / ปีของการเป็นผู้นำ</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Cross-Industry Projects / โครงการข้ามอุตสาหกรรม</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Countries Experience / ประสบการณ์ใน 2 ประเทศ</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">AI</span>
+                            <span class="stat-label">Healthcare Innovation / นวัตกรรมด้านสุขภาพ</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="about-image-container animate-on-scroll">
-                    <div class="about-decoration"></div>
-                    <img src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=aaC4mdWtmr8Q7kNvwGT8qQy&_nc_oc=AdlKEV8JWd--ww4zSO7DetJsjyceRBIFpmVm1xF0eoy3ZA7UlmtmesZ8Caf_j6GRz9zKtlyL67xTI5JhoxItpRiC&_nc_zt=24&_nc_ht=scontent.fkkc3-1.fna&_nc_gid=9FZRe_QmkBz_bKO2ksHsYA&oh=00_AfMYesyp026c5vyfXeGTFs_OkuBTPueGC2ZOFDEUwwyMCA&oe=684CC297" 
-                         alt="About Nuttakarn" 
-                         style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow-lg);">
+                <div class="quick-facts">
+                    <h3>Quick Facts / ข้อมูลสรุป</h3>
+                    <div class="fact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        International (Thailand/UK) / นานาชาติ (ไทย/อังกฤษ)
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        University of Edinburgh
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-briefcase"></i>
+                        Entrepreneurship, AI, UX Design
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-language"></i>
+                        English, Thai / อังกฤษ, ไทย
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-heart"></i>
+                        Innovation, Technology, Creative Production
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="section bg-light" id="projects">
+    <section id="projects" class="projects">
         <div class="container">
-            <div class="section-header animate-on-scroll">
-                <h3 class="section-title-th">ผลงานที่โดดเด่น</h3>
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">
-                    การนำแนวคิดสร้างสรรค์ไปสู่ผลลัพธ์ทางธุรกิจที่วัดผลได้
-                    <br>
-                    Transforming creative concepts into measurable business outcomes
-                </p>
-            </div>
+            <h2 class="section-title">Featured Projects / โครงการเด่น</h2>
             <div class="projects-grid">
-                <!-- Project 1: EarEssence -->
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image">
-                        <i class="fas fa-brain"></i>
-                    </div>
+                <!-- Featured Project -->
+                <div class="project-card featured fade-in">
+                    <div class="project-image"></div>
                     <div class="project-content">
-                        <h4 class="project-title-th">แพลตฟอร์มโสตศาสตร์ระบบ AI</h4>
-                        <h4 class="project-title">AI-Powered Audiological Platform</h4>
-                        <p class="project-role">Product Designer & Business Analyst</p>
+                        <h3 class="project-title">EarEssence CO., LTD.</h3>
+                        <div class="project-role">COO, Business Analyst, UX/UI Designer / COO, นักวิเคราะห์ธุรกิจ, UX/UI Designer</div>
                         <p class="project-description">
-                            ปฏิวัติการดูแลสุขภาพการได้ยินผ่านการปรับแต่งด้วย AI สร้างแพลตฟอร์มที่ใช้งานง่าย เชื่อมโยงเทคโนโลยีทางการแพทย์ที่ซับซ้อนกับการออกแบบที่ใช้งานง่าย
+                            Leading AI audiologist development for healthcare accessibility. Revolutionizing hearing care through innovative technology solutions and user-centered design.
                             <br><br>
-                            Revolutionizing hearing healthcare through AI-driven personalization, creating an intuitive platform that bridges complex medical technology with user-friendly design.
+                            นำทีมพัฒนา AI audiologist เพื่อการเข้าถึงการดูแลสุขภาพ ปฏิวัติการดูแลสุขภาพการได้ยินผ่านโซลูชันเทคโนโลยีนวัตกรรมและการออกแบบที่เน้นผู้ใช้เป็นศูนย์กลาง
                         </p>
                         <div class="project-tags">
-                            <span class="tag">AI/ML</span>
-                            <span class="tag">UX/UI Design</span>
+                            <span class="tag">AI Development</span>
                             <span class="tag">Healthcare</span>
-                            <span class="tag">Business Analytics</span>
+                            <span class="tag">UX/UI Design</span>
+                            <span class="tag">Business Analysis</span>
+                            <span class="tag">Leadership</span>
                         </div>
-                        <a href="#contact" class="project-link">
-                            View Case Study <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Case Study →</a>
+                            <a href="#" class="project-link">Learn More →</a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Salayte Hashery -->
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image">
-                        <i class="fas fa-utensils"></i>
-                    </div>
+                <!-- Project 2 -->
+                <div class="project-card fade-in">
+                    <div class="project-image"></div>
                     <div class="project-content">
-                        <h4 class="project-title-th">การเปลี่ยนผ่านทางดิจิทัลของแบรนด์ร้านอาหาร</h4>
-                        <h4 class="project-title">Restaurant Brand Digital Revolution</h4>
-                        <p class="project-role">Marketing Manager & Content Creator</p>
+                        <h3 class="project-title">Salayte Hashery</h3>
+                        <div class="project-role">Marketing Operations Manager / ผู้จัดการการดำเนินงานด้านการตลาด</div>
                         <p class="project-description">
-                            เปลี่ยนการตลาดร้านอาหารแบบดั้งเดิมผ่านการสร้างเนื้อหา TikTok เชิงกลยุทธ์และการวางตำแหน่งแบรนด์อย่างเป็นระบบ ขับเคลื่อนการเติบโตที่วัดผลได้ในการมีส่วนร่วมของลูกค้าและรายได้
+                            Strategic digital marketing and TikTok channel management driving customer engagement and business growth for restaurant operations.
                             <br><br>
-                            Transformed traditional restaurant marketing through strategic TikTok content creation and systematic brand positioning, driving measurable growth in customer engagement and revenue.
+                            การตลาดดิจิทัลเชิงกลยุทธ์และการจัดการช่อง TikTok เพื่อขับเคลื่อนการมีส่วนร่วมของลูกค้าและการเติบโตทางธุรกิจสำหรับการดำเนินงานร้านอาหาร
                         </p>
                         <div class="project-tags">
-                            <span class="tag">TikTok Marketing</span>
+                            <span class="tag">Digital Marketing</span>
+                            <span class="tag">TikTok Management</span>
                             <span class="tag">Content Strategy</span>
-                            <span class="tag">Brand Development</span>
-                            <span class="tag">POS Systems</span>
+                            <span class="tag">Operations</span>
                         </div>
-                        <a href="#contact" class="project-link">
-                            See Marketing Results <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Results →</a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project 3: The Secret Zong -->
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image">
-                        <i class="fas fa-video"></i>
-                    </div>
+                <!-- Project 3 -->
+                <div class="project-card fade-in">
+                    <div class="project-image"></div>
                     <div class="project-content">
-                        <h4 class="project-title-th">การผลิตภาพยนตร์สั้นแบบอิสระ</h4>
-                        <h4 class="project-title">Independent Short Film Production</h4>
-                        <p class="project-role">Director, Scriptwriter & Cinematographer</p>
+                        <h3 class="project-title">The Secret Zong Short Film</h3>
+                        <div class="project-role">Director, Producer, Cinematographer / ผู้กำกับ, ผู้ผลิต, ช่างภาพ</div>
                         <p class="project-description">
-                            ควบคุมความคิดสร้างสรรค์ของภาพยนตร์สั้นเรื่องราวอย่างสมบูรณ์ แสดงให้เห็นความสามารถในการจัดการโครงการสร้างสรรค์ที่ซับซ้อนตั้งแต่แนวคิดจนถึงการส่งมอบขั้นสุดท้าย ในขณะที่รักษาวิสัยทัศน์ทางศิลปะและประสิทธิภาพการผลิต
+                            Full creative leadership in film production including direction, cinematography, scriptwriting, and music video production showcasing multimedia expertise.
                             <br><br>
-                            Complete creative control of narrative short film, demonstrating ability to manage complex creative projects from concept to final delivery while maintaining artistic vision and production efficiency.
+                            ภาวะผู้นำด้านความคิดสร้างสรรค์แบบครบวงจรในการผลิตภาพยนตร์ รวมถึงการกำกับ การถ่ายทำ การเขียนบท และการผลิตมิวสิกวิดีโอ แสดงให้เห็นความเชี่ยวชาญด้านสื่อผสม
                         </p>
                         <div class="project-tags">
                             <span class="tag">Film Direction</span>
-                            <span class="tag">Scriptwriting</span>
-                            <span class="tag">Cinematography</span>
+                            <span class="tag">Creative Production</span>
+                            <span class="tag">Music Video</span>
                             <span class="tag">Project Management</span>
                         </div>
-                        <a href="#contact" class="project-link">
-                            Watch Film Trailer <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Watch Film →</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1225,155 +1177,155 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="section" id="skills">
+    <section id="skills" class="skills">
         <div class="container">
-            <div class="section-header animate-on-scroll">
-                <h3 class="section-title-th">ความเชี่ยวชาญและทักษะ</h3>
-                <h2 class="section-title">Expertise & Skills</h2>
-                <p class="section-subtitle">
-                    ชุดทักษะที่ครอบคลุมการเชื่อมโยงความคิดสร้างสรรค์กับผลลัพธ์ทางธุรกิจ
-                    <br>
-                    Comprehensive skillset bridging creative vision with business outcomes
-                </p>
+            <h2 class="section-title">Skills & Expertise / ทักษะและความเชี่ยวชาญ</h2>
+            
+            <div class="skills-filter">
+                <button class="filter-btn active" onclick="filterSkills('all')">All / ทั้งหมด</button>
+                <button class="filter-btn" onclick="filterSkills('business')">Business / ธุรกิจ</button>
+                <button class="filter-btn" onclick="filterSkills('technical')">Technical / เทคนิค</button>
+                <button class="filter-btn" onclick="filterSkills('creative')">Creative / สร้างสรรค์</button>
+                <button class="filter-btn" onclick="filterSkills('leadership')">Leadership / ผู้นำ</button>
             </div>
+
             <div class="skills-grid">
-                <!-- Business Strategy & Operations -->
-                <div class="skill-category animate-on-scroll">
-                    <h4 class="category-title">
-                        <i class="fas fa-chart-line category-icon"></i>
-                        <div>
-                            <div class="category-title-th">กลยุทธ์ธุรกิจและการดำเนินงาน</div>
-                            Business Strategy & Operations
-                        </div>
-                    </h4>
+                <div class="skill-category fade-in" data-category="business">
+                    <h3 class="category-title">
+                        <i class="fas fa-chart-line"></i>
+                        Core Business / ธุรกิจหลัก
+                    </h3>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Business Analysis & Strategy</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 95%"></div>
+                        <span class="skill-name">Business Analysis / การวิเคราะห์ธุรกิจ</span>
+                        <span class="skill-level">95%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Operations Management</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        <span class="skill-name">Leadership & Management / การเป็นผู้นำและการจัดการ</span>
+                        <span class="skill-level">90%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Financial Planning</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 85%"></div>
+                        <span class="skill-name">Marketing Strategy / กลยุทธ์การตลาด</span>
+                        <span class="skill-level">85%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>POS System Optimization</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        <span class="skill-name">Operations Management / การจัดการการดำเนินงาน</span>
+                        <span class="skill-level">88%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%;"></div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Creative & Media Production -->
-                <div class="skill-category animate-on-scroll">
-                    <h4 class="category-title">
-                        <i class="fas fa-palette category-icon"></i>
-                        <div>
-                            <div class="category-title-th">ความสร้างสรรค์และการผลิตสื่อ</div>
-                            Creative & Media Production
-                        </div>
-                    </h4>
+                <div class="skill-category fade-in" data-category="technical">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Technical Tools / เครื่องมือทางเทคนิค
+                    </h3>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Content Strategy</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 95%"></div>
+                        <span class="skill-name">UX/UI Design</span>
+                        <span class="skill-level">80%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Video Production & Editing</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        <span class="skill-name">Microsoft Excel/PowerPoint</span>
+                        <span class="skill-level">90%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Social Media Marketing</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 95%"></div>
+                        <span class="skill-name">FlowAccount/POS Systems</span>
+                        <span class="skill-level">85%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>TikTok Optimization</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        <span class="skill-name">3D Printing Software</span>
+                        <span class="skill-level">70%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Technology & Innovation -->
-                <div class="skill-category animate-on-scroll">
-                    <h4 class="category-title">
-                        <i class="fas fa-microchip category-icon"></i>
-                        <div>
-                            <div class="category-title-th">เทคโนโลยีและนวัตกรรม</div>
-                            Technology & Innovation
-                        </div>
-                    </h4>
+                <div class="skill-category fade-in" data-category="creative">
+                    <h3 class="category-title">
+                        <i class="fas fa-palette"></i>
+                        Creative Production / การผลิตสร้างสรรค์
+                    </h3>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>UX/UI Design</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 80%"></div>
+                        <span class="skill-name">Video Production / การผลิตวิดีโอ</span>
+                        <span class="skill-level">90%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>AI Integration</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 75%"></div>
+                        <span class="skill-name">Content Creation / การสร้างเนื้อหา</span>
+                        <span class="skill-level">85%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>3D Printing & Prototyping</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 70%"></div>
+                        <span class="skill-name">TikTok Management</span>
+                        <span class="skill-level">85%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Data Analytics</span>
-                            <span>80%</span>
+                        <span class="skill-name">Music Production / การผลิตเพลง</span>
+                        <span class="skill-level">75%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
                         </div>
-                        <div class="skill-progress">
-                            <div class="skill-bar" style="--skill-width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in" data-category="technical">
+                    <h3 class="category-title">
+                        <i class="fas fa-robot"></i>
+                        Emerging Tech / เทคโนโลยีใหม่
+                    </h3>
+                    <div class="skill-item">
+                        <span class="skill-name">AI Development / การพัฒนา AI</span>
+                        <span class="skill-level">70%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Healthcare Technology / เทคโนโลยีการดูแลสุขภาพ</span>
+                        <span class="skill-level">75%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Data Analysis / การวิเคราะห์ข้อมูล</span>
+                        <span class="skill-level">80%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Project Management / การจัดการโครงการ</span>
+                        <span class="skill-level">90%</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
                         </div>
                     </div>
                 </div>
@@ -1381,519 +1333,361 @@
         </div>
     </section>
 
-    <!-- Journey Section -->
-    <section class="section bg-light" id="journey">
+    <!-- Experience Timeline -->
+    <section id="experience" class="experience">
         <div class="container">
-            <div class="section-header animate-on-scroll">
-                <h3 class="section-title-th">เส้นทางความสำเร็จ</h3>
-                <h2 class="section-title">Professional Journey</h2>
-                <p class="section-subtitle">
-                    การเดินทางการเรียนรู้และการเติบโตอย่างต่อเนื่อง
-                    <br>
-                    A path of continuous learning and growth across multiple disciplines
-                </p>
-            </div>
+            <h2 class="section-title">Professional Journey / เส้นทางการทำงาน</h2>
             <div class="timeline">
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
+                <div class="timeline-item fade-in">
                     <div class="timeline-content">
-                        <div class="timeline-year">2024</div>
-                        <h4 class="timeline-title">MSc Entrepreneurship & Innovation (In Progress)</h4>
+                        <h3 class="timeline-title">COO & Co-Founder</h3>
+                        <div class="timeline-company">EarEssence CO., LTD.</div>
                         <p class="timeline-description">
-                            การศึกษาขั้นสูงในกลยุทธ์การเริ่มต้นธุรกิจและการจัดการนวัตกรรม เพื่อเสริมสร้างความเชี่ยวชาญด้านการประกอบการ
+                            Leading AI audiologist development and healthcare technology innovation. Managing cross-functional teams and driving strategic business growth in the healthcare sector.
                             <br><br>
-                            Advanced studies in startup strategy and innovation management, enhancing entrepreneurial expertise with academic rigor.
+                            นำทีมพัฒนา AI audiologist และนวัตกรรมเทคโนโลยีการดูแลสุขภาพ จัดการทีมข้ามสายงานและขับเคลื่อนการเติบโตทางธุรกิจเชิงกลยุทธ์ในภาคสุขภาพ
                         </p>
                     </div>
+                    <div class="timeline-date">2024 - Present</div>
                 </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
+
+                <div class="timeline-item fade-in">
                     <div class="timeline-content">
-                        <div class="timeline-year">2023</div>
-                        <h4 class="timeline-title">EarEssence AI Platform Development</h4>
+                        <h3 class="timeline-title">Marketing Operations Manager</h3>
+                        <div class="timeline-company">Salayte Hashery</div>
                         <p class="timeline-description">
-                            การออกแบบผลิตภัณฑ์และการวิเคราะห์ธุรกิจสำหรับสตาร์ทอัพด้านการดูแลสุขภาพที่ใช้ปัญญาประดิษฐ์ สร้างโซลูชันที่เน้นผู้ใช้สำหรับเทคโนโลยีการแพทย์ที่ซับซ้อน
+                            Digital marketing strategy and TikTok channel growth. Customer engagement optimization and restaurant operations management.
                             <br><br>
-                            Product design and business analysis for healthcare AI startup, creating user-centered solutions for complex medical technology.
+                            กลยุทธ์การตลาดดิจิทัลและการเติบโตของช่อง TikTok การปรับปรุงการมีส่วนร่วมของลูกค้าและการจัดการการดำเนินงานร้านอาหาร
                         </p>
                     </div>
+                    <div class="timeline-date">2023 - 2024</div>
                 </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
+
+                <div class="timeline-item fade-in">
                     <div class="timeline-content">
-                        <div class="timeline-year">2022</div>
-                        <h4 class="timeline-title">Salayte Hashery Marketing Leadership</h4>
+                        <h3 class="timeline-title">Film Director & Producer</h3>
+                        <div class="timeline-company">Independent Creative Project</div>
                         <p class="timeline-description">
-                            การเปลี่ยนผ่านทางดิจิทัลและกลยุทธ์เนื้อหาสำหรับแบรนด์การบริการ พัฒนากลยุทธ์สื่อสังคมออนไลน์ที่สร้างการมีส่วนร่วมและขับเคลื่อนการเติบโต
+                            "The Secret Zong" short film production. Full creative leadership including direction, cinematography, scriptwriting, and music video production.
                             <br><br>
-                            Digital transformation and content strategy for hospitality brand, developing social media strategies that drive engagement and growth.
+                            การผลิตภาพยนตร์สั้น "The Secret Zong" ภาวะผู้นำด้านความคิดสร้างสรรค์แบบครบวงจร รวมถึงการกำกับ การถ่ายทำ การเขียนบท และการผลิตมิวสิกวิดีโอ
                         </p>
                     </div>
+                    <div class="timeline-date">2022 - 2023</div>
                 </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
+
+                <div class="timeline-item fade-in">
                     <div class="timeline-content">
-                        <div class="timeline-year">2022</div>
-                        <h4 class="timeline-title">The Secret Zong Film Direction</h4>
+                        <h3 class="timeline-title">MSc Entrepreneurship and Innovation</h3>
+                        <div class="timeline-company">University of Edinburgh</div>
                         <p class="timeline-description">
-                            การจัดการโครงการสร้างสรรค์ที่สมบูรณ์และการดำเนินการ การออกแบบและผลิตภาพยนตร์สั้นจากแนวคิดถึงการส่งมอบขั้นสุดท้าย
+                            Advanced studies in entrepreneurship, innovation management, and startup development. International perspective on business strategy and technology innovation.
                             <br><br>
-                            Complete creative project management and execution, conceptualizing and producing a narrative short film from idea to final delivery.
+                            การศึกษาระดับสูงในด้านการเป็นผู้ประกอบการ การจัดการนวัตกรรม และการพัฒนาธุรกิจเริ่มต้น มุมมองนานาชาติเกี่ยวกับกลยุทธ์ธุรกิจและนวัตกรรมเทคโนโลยี
                         </p>
                     </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-year">2021</div>
-                        <h4 class="timeline-title">Media & Communication Foundation</h4>
-                        <p class="timeline-description">
-                            ปริญญาตรีด้านสื่อและการสื่อสาร เน้นการสร้างเนื้อหาดิจิทัลและกลยุทธ์การสื่อสาร สร้างรากฐานที่แข็งแกร่งในการผลิตสื่อและการจัดการแบรนด์
-                            <br><br>
-                            Bachelor's degree in Media and Communication with focus on digital content creation and communication strategy, building strong foundation in media production and brand management.
-                        </p>
-                    </div>
+                    <div class="timeline-date">2021 - 2022</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="section contact" id="contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <div class="section-header animate-on-scroll">
-                <h3 class="section-title-th">เริ่มต้นการสนทนา</h3>
-                <h2 class="section-title">Let's Start a Conversation</h2>
-                <p class="section-subtitle">
-                    พร้อมที่จะสร้างสรรค์บางสิ่งที่น่าอัศจรรย์ร่วมกัน มาคุยกันเกี่ยวกับโครงการต่อไปของคุณ
-                    <br>
-                    Ready to create something amazing together? Let's discuss your next project.
-                </p>
-            </div>
+            <h2 class="section-title">Let's Create Something Amazing / มาสร้างสิ่งที่น่าทึ่งด้วยกัน</h2>
             <div class="contact-content">
-                <div class="contact-info animate-on-scroll">
-                    <h3>Get In Touch</h3>
-                    <h4>ติดต่อข้าพเจ้า</h4>
-                    <p>
-                        ไม่ว่าคุณจะต้องการความช่วยเหลือด้านกลยุทธ์ธุรกิจ การพัฒนาผลิตภัณฑ์ หรือแนวคิดสร้างสรรค์ ข้าพเจ้ายินดีที่จะช่วยเปลี่ยนวิสัยทัศน์ของคุณให้เป็นจริง
-                        <br><br>
-                        Whether you need help with business strategy, product development, or creative ideation, I'm here to help transform your vision into reality.
-                    </p>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <strong>Email</strong>
-                            <p>nuttakarn.won@gmail.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div>
-                            <strong>Phone / โทรศัพท์</strong>
-                            <p>Available upon request / ขอได้เมื่อติดต่อ</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <strong>Location / สถานที่</strong>
-                            <p>Thailand / ประเทศไทย</p>
-                        </div>
-                    </div>
-
-                    <div class="social-links">
-                        <a href="mailto:nuttakarn.won@gmail.com" class="social-link" aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="contact-form animate-on-scroll">
-                    <form id="contactForm">
+                <div class="contact-form">
+                    <h3>Send Me a Message / ส่งข้อความหาฉัน</h3>
+                    <form id="contactForm" onsubmit="handleSubmit(event)">
                         <div class="form-group">
-                            <label for="name" class="form-label">Name / ชื่อ *</label>
-                            <input type="text" id="name" name="name" class="form-input" required>
+                            <label for="name">Name / ชื่อ *</label>
+                            <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email" class="form-label">Email / อีเมล *</label>
-                            <input type="email" id="email" name="email" class="form-input" required>
+                            <label for="email">Email / อีเมล *</label>
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="subject" class="form-label">Subject / หัวข้อ</label>
-                            <input type="text" id="subject" name="subject" class="form-input">
+                            <label for="company">Company / บริษัท</label>
+                            <input type="text" id="company" name="company">
                         </div>
                         <div class="form-group">
-                            <label for="message" class="form-label">Message / ข้อความ *</label>
-                            <textarea id="message" name="message" class="form-textarea" required placeholder="Tell me about your project or how I can help you... / บอกเล่าเกี่ยวกับโครงการของคุณหรือว่าฉันจะช่วยคุณได้อย่างไร..."></textarea>
+                            <label for="projectType">Project Type / ประเภทโครงการ</label>
+                            <select id="projectType" name="projectType">
+                                <option value="">Select / เลือก</option>
+                                <option value="healthcare">Healthcare Technology / เทคโนโลยีการดูแลสุขภาพ</option>
+                                <option value="startup">Startup Operations / การดำเนินงานธุรกิจเริ่มต้น</option>
+                                <option value="creative">Creative Technology / เทคโนโลยีสร้างสรรค์</option>
+                                <option value="consulting">Business Consulting / ที่ปรึกษาธุรกิจ</option>
+                                <option value="other">Other / อื่นๆ</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message / ข้อความ *</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project or how we can collaborate... / บอกฉันเกี่ยวกับโครงการของคุณหรือวิธีที่เราสามารถร่วมมือกัน..." required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i>
-                            Send Message / ส่งข้อความ
+                            <i class="fas fa-paper-plane"></i> Send Message / ส่งข้อความ
                         </button>
                     </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h4>Get In Touch / ติดต่อ</h4>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nuttakarn.won@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Available for international projects / พร้อมสำหรับโครงการนานาชาติ</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Response within 24 hours / ตอบกลับภายใน 24 ชั่วโมง</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="opportunities">
+                            <h5>Open for opportunities in / เปิดรับโอกาสใน:</h5>
+                            <ul>
+                                <li>Healthcare Technology Leadership / การเป็นผู้นำเทคโนโลยีการดูแลสุขภาพ</li>
+                                <li>Startup Operations & Strategy / การดำเนินงานและกลยุทธ์ธุรกิจเริ่มต้น</li>
+                                <li>Creative Technology Projects / โครงการเทคโนโลยีสร้างสรรค์</li>
+                                <li>International Business Development / การพัฒนาธุรกิจนานาชาติ</li>
+                                <li>AI & Innovation Consulting / ที่ปรึกษา AI และนวัตกรรม</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <p>&copy; 2024 Nuttakarn Wongtippanad. All rights reserved. / สงวนลิขสิทธิ์ทุกประการ</p>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <p>&copy; 2024 Nuttakarn Wongtippanad. All rights reserved. / สงวนลิขสิทธิ์</p>
+                <p>Transforming Innovation Into Impact / การแปลงนวัตกรรมสู่ผลกระทบที่แท้จริง</p>
+            </div>
         </div>
     </footer>
 
     <script>
-        // DOM Elements
-        const header = document.getElementById('header');
-        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
-        const scrollProgress = document.getElementById('scrollProgress');
-        const loading = document.getElementById('loading');
-        const contactForm = document.getElementById('contactForm');
-
-        // Loading Animation
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                loading.classList.add('fade-out');
-                setTimeout(() => {
-                    loading.style.display = 'none';
+        // Preloader
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const preloader = document.getElementById('preloader');
+                preloader.classList.add('fade-out');
+                setTimeout(function() {
+                    preloader.style.display = 'none';
                 }, 500);
             }, 1000);
         });
 
-        // Header Scroll Effect
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 100) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-
-            // Update scroll progress
-            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollProgress = (window.scrollY / scrollHeight) * 100;
-            document.getElementById('scrollProgress').style.width = `${scrollProgress}%`;
-        });
-
-        // Mobile Menu Toggle
-        mobileMenuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('active');
-            const icon = mobileMenuToggle.querySelector('i');
-            if (mobileMenu.classList.contains('active')) {
-                icon.classList.replace('fa-bars', 'fa-times');
-            } else {
-                icon.classList.replace('fa-times', 'fa-bars');
-            }
-        });
-
-        // Navigation Active State and Smooth Scrolling
-        function setActiveLink(targetId) {
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('data-section') === targetId) {
-                    link.classList.add('active');
-                }
-            });
-        }
-
         // Smooth scrolling for navigation links
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const targetId = link.getAttribute('data-section');
-                const targetElement = document.getElementById(targetId);
-                
-                if (targetElement) {
-                    const headerHeight = header.offsetHeight;
-                    const targetPosition = targetElement.offsetTop - headerHeight;
-                    
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
                     });
-                    
-                    setActiveLink(targetId);
-                    
-                    // Close mobile menu if open
-                    if (mobileMenu.classList.contains('active')) {
-                        mobileMenu.classList.remove('active');
-                        mobileMenuToggle.querySelector('i').classList.replace('fa-times', 'fa-bars');
-                    }
                 }
             });
         });
 
-        // Intersection Observer for Navigation
-        const sections = document.querySelectorAll('section[id]');
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.boxShadow = '0 2px 20px var(--shadow)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Fade in animation on scroll
         const observerOptions = {
-            root: null,
-            rootMargin: '-50px 0px -50px 0px',
-            threshold: 0.3
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
         };
 
-        const sectionObserver = new IntersectionObserver((entries) => {
+        const observer = new IntersectionObserver(function(entries) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    setActiveLink(entry.target.id);
+                    entry.target.classList.add('visible');
                 }
             });
         }, observerOptions);
 
-        sections.forEach(section => {
-            sectionObserver.observe(section);
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
         });
 
-        // Scroll Animation Observer
-        const animateElements = document.querySelectorAll('.animate-on-scroll');
-        const animateObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animated');
+        // Skills filter functionality
+        function filterSkills(category) {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const skillCategories = document.querySelectorAll('.skill-category');
+
+            // Update active button
+            filterBtns.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Filter skills
+            skillCategories.forEach(category => {
+                if (category === 'all' || category.dataset.category === category || 
+                    (category === 'leadership' && category.dataset.category === 'business')) {
+                    category.style.display = 'block';
+                } else if (category !== 'all') {
+                    category.style.display = category.dataset.category === category ? 'block' : 'none';
                 }
             });
-        }, {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        });
 
-        animateElements.forEach(element => {
-            animateObserver.observe(element);
-        });
+            // Show all if 'all' is selected
+            if (category === 'all') {
+                skillCategories.forEach(cat => {
+                    cat.style.display = 'block';
+                });
+            }
+        }
 
-        // Skills Animation Observer
-        const skillItems = document.querySelectorAll('.skill-item');
-        const skillsObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                }
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        // Contact form handling
+        function handleSubmit(event) {
+            event.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(event.target);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
             });
-        }, {
-            threshold: 0.5
-        });
 
-        skillItems.forEach(item => {
-            skillsObserver.observe(item);
-        });
+            // Simple validation
+            if (!data.name || !data.email || !data.message) {
+                alert('Please fill in all required fields. / กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน');
+                return;
+            }
 
-        // Contact Form Handling
-        contactForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            const formData = new FormData(contactForm);
-            const formObject = Object.fromEntries(formData);
-            
-            // Show loading state
-            const submitButton = contactForm.querySelector('button[type="submit"]');
-            const originalText = submitButton.innerHTML;
-            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-            submitButton.disabled = true;
-            
-            // Simulate form submission (replace with actual form handling)
+            // Simulate form submission
+            const submitBtn = event.target.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending... / กำลังส่ง...';
+            submitBtn.disabled = true;
+
             setTimeout(() => {
-                alert('Thank you for your message! I\'ll get back to you soon.\n\nขอบคุณสำหรับข้อความของคุณ! ฉันจะตอบกลับเร็วๆ นี้');
-                contactForm.reset();
-                submitButton.innerHTML = originalText;
-                submitButton.disabled = false;
+                alert('Thank you for your message! I\'ll get back to you soon. / ขอบคุณสำหรับข้อความของคุณ! ฉันจะติดต่อกลับเร็วๆ นี้');
+                event.target.reset();
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
             }, 2000);
-        });
-
-        // Parallax Effect for Hero Section
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const parallaxElements = document.querySelectorAll('.hero');
-            
-            parallaxElements.forEach(element => {
-                const speed = 0.5;
-                element.style.transform = `translateY(${scrolled * speed}px)`;
-            });
-        });
-
-        // Typing Animation for Hero Title (Optional Enhancement)
-        function typeWriter(element, text, speed = 100) {
-            let i = 0;
-            element.innerHTML = '';
-            function type() {
-                if (i < text.length) {
-                    element.innerHTML += text.charAt(i);
-                    i++;
-                    setTimeout(type, speed);
-                }
-            }
-            type();
         }
 
-        // Initialize typing animation when page loads
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                const heroTitle = document.querySelector('.hero-title');
-                if (heroTitle) {
-                    const originalText = heroTitle.textContent;
-                    typeWriter(heroTitle, originalText, 50);
-                }
-            }, 1500);
-        });
+        // Resume download function
+        function downloadResume() {
+            // Create a temporary link element
+            const link = document.createElement('a');
+            link.href = '#'; // Replace with actual resume URL
+            link.download = 'Nuttakarn_Wongtippanad_Resume.pdf';
+            link.click();
+            
+            // Show confirmation
+            alert('Resume download started! / เริ่มดาวน์โหลดเรซูเม่แล้ว!');
+        }
 
-        // Add click animations to buttons
-        const buttons = document.querySelectorAll('.btn');
-        buttons.forEach(button => {
-            button.addEventListener('click', function(e) {
-                const ripple = document.createElement('span');
-                const rect = this.getBoundingClientRect();
-                const size = Math.max(rect.width, rect.height);
-                const x = e.clientX - rect.left - size / 2;
-                const y = e.clientY - rect.top - size / 2;
-                
-                ripple.style.width = ripple.style.height = size + 'px';
-                ripple.style.left = x + 'px';
-                ripple.style.top = y + 'px';
-                ripple.style.position = 'absolute';
-                ripple.style.borderRadius = '50%';
-                ripple.style.background = 'rgba(255, 255, 255, 0.3)';
-                ripple.style.transform = 'scale(0)';
-                ripple.style.animation = 'ripple 0.6s linear';
-                ripple.style.pointerEvents = 'none';
-                
-                this.style.position = 'relative';
-                this.style.overflow = 'hidden';
-                this.appendChild(ripple);
-                
-                setTimeout(() => {
-                    ripple.remove();
-                }, 600);
-            });
-        });
-
-        // Add CSS for ripple animation
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes ripple {
-                to {
-                    transform: scale(2);
-                    opacity: 0;
-                }
-            }
-        `;
-        document.head.appendChild(style);
-
-        // Enhanced scroll animations
-        const observerCallback = (entries, observer) => {
+        // Animate skill bars when they come into view
+        const skillObserver = new IntersectionObserver(function(entries) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.style.animation = 'fadeInUp 0.6s ease forwards';
-                    observer.unobserve(entry.target);
+                    const progressBars = entry.target.querySelectorAll('.skill-progress');
+                    progressBars.forEach(bar => {
+                        const width = bar.style.width;
+                        bar.style.width = '0%';
+                        setTimeout(() => {
+                            bar.style.width = width;
+                        }, 500);
+                    });
                 }
             });
-        };
+        }, { threshold: 0.5 });
 
-        const enhancedObserver = new IntersectionObserver(observerCallback, {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
+        document.querySelectorAll('.skill-category').forEach(el => {
+            skillObserver.observe(el);
         });
 
-        // Progressive loading for images
-        const images = document.querySelectorAll('img[src]');
-        const imageObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    img.style.opacity = '0';
-                    img.style.transition = 'opacity 0.3s ease';
-                    
-                    const tempImg = new Image();
-                    tempImg.onload = () => {
-                        img.style.opacity = '1';
-                    };
-                    tempImg.src = img.src;
-                    
-                    observer.unobserve(img);
-                }
-            });
-        });
-
-        images.forEach(img => {
-            imageObserver.observe(img);
-        });
-
-        // Add hover effects to project cards
-        const projectCards = document.querySelectorAll('.project-card');
-        projectCards.forEach(card => {
-            card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-8px) scale(1.02)';
-            });
-            
-            card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0) scale(1)';
-            });
-        });
-
-        // Performance optimization: Debounce scroll events
-        function debounce(func, wait) {
-            let timeout;
-            return function executedFunction(...args) {
-                const later = () => {
-                    clearTimeout(timeout);
-                    func(...args);
-                };
-                clearTimeout(timeout);
-                timeout = setTimeout(later, wait);
-            };
-        }
-
-        // Apply debounce to scroll events
-        const debouncedScrollHandler = debounce((e) => {
-            // Your scroll handling code here
-            updateScrollProgress();
-        }, 10);
-
-        function updateScrollProgress() {
-            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollProgress = (window.scrollY / scrollHeight) * 100;
-            document.getElementById('scrollProgress').style.width = `${scrollProgress}%`;
-        }
-
-        window.addEventListener('scroll', debouncedScrollHandler);
-
-        // Add accessibility improvements
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
-                mobileMenu.classList.remove('active');
-                mobileMenuToggle.querySelector('i').classList.replace('fa-times', 'fa-bars');
+        // Add keyboard navigation support
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Tab') {
+                document.body.classList.add('keyboard-navigation');
             }
         });
 
-        // Focus management for mobile menu
-        mobileMenuToggle.addEventListener('click', () => {
-            if (mobileMenu.classList.contains('active')) {
-                // Focus first menu item when opened
-                setTimeout(() => {
-                    const firstMenuItem = mobileMenu.querySelector('.mobile-nav-link');
-                    if (firstMenuItem) firstMenuItem.focus();
-                }, 100);
-            }
+        document.addEventListener('mousedown', function() {
+            document.body.classList.remove('keyboard-navigation');
         });
 
-        console.log('Portfolio initialized successfully! 🚀');
+        // Language toggle functionality (if needed)
+        let currentLang = 'mixed'; // Default to mixed Thai/English
+
+        function toggleLanguage() {
+            // This function could be expanded to toggle between Thai and English
+            // For now, the site displays both languages simultaneously
+            console.log('Language toggle functionality ready for implementation');
+        }
+
+        // Performance optimization: Lazy load images
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src || img.src;
+                        img.classList.remove('lazy');
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+
+            document.querySelectorAll('img[data-src]').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+
+        // Add smooth scroll behavior for older browsers
+        if (!CSS.supports('scroll-behavior', 'smooth')) {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+                        window.scrollTo({
+                            top: targetPosition - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        }
     </script>
 
     <!-- Structured Data for SEO -->
@@ -1902,28 +1696,29 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Nuttakarn Wongtippanad",
-        "jobTitle": "Entrepreneur & Chief Operating Officer",
-        "description": "Creative entrepreneur and COO specializing in AI innovation, digital marketing, and strategic business development.",
-        "url": "",
-        "email": "nuttakarn.won@gmail.com",
-        "image": "https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg",
-        "knowsAbout": [
-            "Business Strategy",
-            "AI Innovation",
-            "Digital Marketing",
-            "Content Creation",
-            "UX/UI Design",
-            "Project Management",
-            "Entrepreneurship"
-        ],
-        "alumniOf": {
-            "@type": "Organization",
-            "name": "MSc Entrepreneurship & Innovation"
-        },
+        "jobTitle": "Entrepreneur and COO",
         "worksFor": {
             "@type": "Organization",
-            "name": "Multiple Ventures"
-        }
+            "name": "EarEssence CO., LTD."
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "The University of Edinburgh"
+        },
+        "email": "nuttakarn.won@gmail.com",
+        "description": "Dynamic entrepreneur and COO specializing in AI healthcare technology, business innovation, and creative production.",
+        "sameAs": [
+            "https://linkedin.com/in/nuttakarn-wongtippanad",
+            "https://github.com/nuttakarn"
+        ],
+        "knowsAbout": [
+            "Entrepreneurship",
+            "AI Development",
+            "Healthcare Technology",
+            "Business Operations",
+            "Creative Production",
+            "Digital Marketing"
+        ]
     }
     </script>
 </body>
