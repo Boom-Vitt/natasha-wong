@@ -1,0 +1,1930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuttakarn Wongtippanad - Creative Entrepreneur & COO specializing in AI innovation, digital marketing, and strategic business development. Transforming creative visions into profitable realities.">
+    <meta name="keywords" content="entrepreneur, COO, AI innovation, digital marketing, business strategy, creative director, Thailand">
+    <meta name="author" content="Nuttakarn Wongtippanad">
+    <meta property="og:title" content="Nuttakarn Wongtippanad - Creative Entrepreneur & COO">
+    <meta property="og:description" content="Entrepreneur and COO specializing in creative media and business operations. AI innovation, digital marketing, and strategic business development.">
+    <meta property="og:image" content="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <title>Nuttakarn Wongtippanad - Creative Entrepreneur & COO | Business Innovation</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* CSS Reset and Base Styles */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Color Palette */
+            --primary-blue: #4A90E2;
+            --secondary-teal: #50C9CE;
+            --accent-coral: #FF7E79;
+            --neutral-dark: #2C3E50;
+            --neutral-light: #F8FAFC;
+            --success-green: #27AE60;
+            --warning-amber: #F39C12;
+            --white: #FFFFFF;
+            --border-light: #E2E8F0;
+            
+            /* Typography */
+            --font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+            --font-size-xl: clamp(2.5rem, 5vw, 3.5rem);
+            --font-size-lg: clamp(2rem, 4vw, 2.5rem);
+            --font-size-md: clamp(1.25rem, 2.5vw, 1.75rem);
+            --font-size-sm: clamp(1rem, 2vw, 1.25rem);
+            --font-size-base: 1rem;
+            --font-size-xs: 0.875rem;
+            
+            /* Spacing */
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 3rem;
+            --spacing-2xl: 4rem;
+            
+            /* Layout */
+            --max-width: 1200px;
+            --border-radius: 12px;
+            --border-radius-sm: 8px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            color: var(--neutral-dark);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-sm);
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                padding: 0 var(--spacing-lg);
+            }
+        }
+
+        /* Header & Navigation */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled {
+            box-shadow: var(--shadow-sm);
+            background: rgba(255, 255, 255, 0.98);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: var(--spacing-sm) 0;
+        }
+
+        .logo {
+            font-size: var(--font-size-sm);
+            font-weight: 700;
+            color: var(--primary-blue);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+
+        .nav-menu {
+            display: none;
+            list-style: none;
+            gap: var(--spacing-lg);
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .nav-menu {
+                display: flex;
+            }
+        }
+
+        .nav-link {
+            color: var(--neutral-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--primary-blue);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-blue);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        .mobile-menu-toggle {
+            display: block;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--neutral-dark);
+            cursor: pointer;
+        }
+
+        @media (min-width: 768px) {
+            .mobile-menu-toggle {
+                display: none;
+            }
+        }
+
+        /* Mobile Menu */
+        .mobile-menu {
+            position: fixed;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            border-top: 1px solid var(--border-light);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-20px);
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+
+        .mobile-menu.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .mobile-nav {
+            list-style: none;
+            padding: var(--spacing-md);
+        }
+
+        .mobile-nav-link {
+            display: block;
+            padding: var(--spacing-sm);
+            color: var(--neutral-dark);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid var(--border-light);
+            transition: color 0.3s ease;
+        }
+
+        .mobile-nav-link:hover {
+            color: var(--primary-blue);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-teal) 100%);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.08)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.06)"/></svg>');
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-xl);
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .hero-text {
+            z-index: 2;
+        }
+
+        .hero-title {
+            font-size: var(--font-size-xl);
+            font-weight: 700;
+            margin-bottom: var(--spacing-md);
+            line-height: 1.2;
+        }
+
+        .hero-title-th {
+            font-size: var(--font-size-lg);
+            color: var(--secondary-teal);
+            margin-bottom: var(--spacing-xs);
+            font-weight: 600;
+        }
+
+        .hero-subtitle {
+            font-size: var(--font-size-sm);
+            margin-bottom: var(--spacing-lg);
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .stat {
+            text-align: center;
+            padding: var(--spacing-sm);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--border-radius-sm);
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-number {
+            font-size: var(--font-size-md);
+            font-weight: 700;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: var(--font-size-xs);
+            opacity: 0.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-sm);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            padding: var(--spacing-sm) var(--spacing-lg);
+            border-radius: var(--border-radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: var(--font-size-base);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--primary-blue);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--primary-blue);
+        }
+
+        .hero-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-avatar {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid rgba(255, 255, 255, 0.2);
+            box-shadow: var(--shadow-lg);
+            animation: profileFloat 6s ease-in-out infinite;
+        }
+
+        @keyframes profileFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @media (max-width: 767px) {
+            .hero-avatar {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        /* Section Styles */
+        .section {
+            padding: var(--spacing-2xl) 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .section-title {
+            font-size: var(--font-size-lg);
+            font-weight: 700;
+            margin-bottom: var(--spacing-sm);
+            color: var(--neutral-dark);
+        }
+
+        .section-title-th {
+            font-size: var(--font-size-md);
+            color: var(--primary-blue);
+            margin-bottom: var(--spacing-xs);
+            font-weight: 600;
+        }
+
+        .section-subtitle {
+            font-size: var(--font-size-base);
+            color: #64748B;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-xl);
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .about-text {
+            font-size: var(--font-size-base);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .about-highlights {
+            list-style: none;
+            margin-top: var(--spacing-md);
+        }
+
+        .highlight {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+        }
+
+        .highlight-icon {
+            color: var(--success-green);
+            font-size: 1.2rem;
+        }
+
+        .about-image-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .about-decoration {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(45deg, var(--accent-coral), var(--secondary-teal));
+            border-radius: 50%;
+            opacity: 0.1;
+            z-index: -1;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--spacing-lg);
+        }
+
+        .project-card {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .project-image {
+            height: 200px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-teal));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="0,0 100,0 80,100 0,100" fill="rgba(255,255,255,0.1)"/></svg>');
+            background-size: cover;
+        }
+
+        .project-content {
+            padding: var(--spacing-md);
+        }
+
+        .project-title {
+            font-size: var(--font-size-sm);
+            font-weight: 600;
+            margin-bottom: var(--spacing-xs);
+            color: var(--neutral-dark);
+        }
+
+        .project-title-th {
+            font-size: var(--font-size-base);
+            color: var(--primary-blue);
+            font-weight: 500;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .project-role {
+            font-size: var(--font-size-xs);
+            color: var(--accent-coral);
+            font-weight: 500;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .project-description {
+            font-size: var(--font-size-xs);
+            line-height: 1.6;
+            margin-bottom: var(--spacing-md);
+            color: #64748B;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-xs);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .tag {
+            background: var(--neutral-light);
+            color: var(--neutral-dark);
+            padding: 4px 8px;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .project-link {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: var(--font-size-xs);
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            transition: color 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: var(--secondary-teal);
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--spacing-lg);
+        }
+
+        .skill-category {
+            background: var(--white);
+            padding: var(--spacing-lg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .category-title {
+            font-size: var(--font-size-sm);
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+            color: var(--neutral-dark);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+
+        .category-title-th {
+            font-size: var(--font-size-base);
+            color: var(--primary-blue);
+            font-weight: 500;
+        }
+
+        .category-icon {
+            font-size: 1.5rem;
+            color: var(--primary-blue);
+        }
+
+        .skill-item {
+            margin-bottom: var(--spacing-md);
+        }
+
+        .skill-name {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+        }
+
+        .skill-progress {
+            height: 8px;
+            background: var(--neutral-light);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .skill-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-blue), var(--secondary-teal));
+            border-radius: 4px;
+            width: 0%;
+            transition: width 1s ease-in-out 0.2s;
+        }
+
+        .skill-item.animate .skill-bar {
+            width: var(--skill-width);
+        }
+
+        /* Timeline Section */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px;
+            height: 100%;
+            background: var(--border-light);
+            transform: translateX(-50%);
+        }
+
+        @media (max-width: 767px) {
+            .timeline::before {
+                left: 20px;
+            }
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+        }
+
+        @media (max-width: 767px) {
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 0;
+            }
+        }
+
+        .timeline-content {
+            width: calc(50% - 30px);
+            background: var(--white);
+            padding: var(--spacing-md);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+        }
+
+        @media (max-width: 767px) {
+            .timeline-content {
+                width: calc(100% - 60px);
+                margin-left: 40px;
+            }
+        }
+
+        .timeline-year {
+            font-size: var(--font-size-sm);
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .timeline-title {
+            font-size: var(--font-size-base);
+            font-weight: 600;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .timeline-description {
+            font-size: var(--font-size-xs);
+            color: #64748B;
+            line-height: 1.6;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            width: 16px;
+            height: 16px;
+            background: var(--primary-blue);
+            border: 4px solid var(--white);
+            border-radius: 50%;
+            transform: translateX(-50%);
+            box-shadow: var(--shadow-sm);
+        }
+
+        @media (max-width: 767px) {
+            .timeline-dot {
+                left: 20px;
+            }
+        }
+
+        /* Contact Section */
+        .contact {
+            background: linear-gradient(135deg, var(--neutral-light) 0%, var(--white) 100%);
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-xl);
+        }
+
+        @media (min-width: 768px) {
+            .contact-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .contact-info h3 {
+            font-size: var(--font-size-md);
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+            color: var(--neutral-dark);
+        }
+
+        .contact-info h4 {
+            font-size: var(--font-size-sm);
+            color: var(--primary-blue);
+            font-weight: 500;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .contact-info p {
+            margin-bottom: var(--spacing-md);
+            line-height: 1.7;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--primary-blue);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .contact-form {
+            background: var(--white);
+            padding: var(--spacing-lg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+        }
+
+        .form-group {
+            margin-bottom: var(--spacing-md);
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+            color: var(--neutral-dark);
+        }
+
+        .form-input,
+        .form-textarea {
+            width: 100%;
+            padding: var(--spacing-sm);
+            border: 2px solid var(--border-light);
+            border-radius: var(--border-radius-sm);
+            font-family: inherit;
+            font-size: var(--font-size-base);
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-md);
+        }
+
+        .social-link {
+            width: 44px;
+            height: 44px;
+            background: var(--neutral-light);
+            color: var(--neutral-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--neutral-dark);
+            color: var(--white);
+            text-align: center;
+            padding: var(--spacing-lg) 0;
+        }
+
+        .footer p {
+            opacity: 0.8;
+            font-size: var(--font-size-xs);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Utility Classes */
+        .text-center { text-align: center; }
+        .text-primary { color: var(--primary-blue); }
+        .text-secondary { color: var(--secondary-teal); }
+        .text-accent { color: var(--accent-coral); }
+        .bg-light { background-color: var(--neutral-light); }
+        .mb-0 { margin-bottom: 0; }
+        .mt-0 { margin-top: 0; }
+
+        /* Responsive Design */
+        @media (max-width: 480px) {
+            :root {
+                --font-size-xl: 2.25rem;
+                --font-size-lg: 1.875rem;
+                --spacing-xl: 2rem;
+                --spacing-2xl: 3rem;
+            }
+            
+            .hero-buttons {
+                justify-content: center;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        .loading.fade-out {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border-light);
+            border-top: 4px solid var(--primary-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Scroll Progress Bar */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-blue), var(--secondary-teal));
+            z-index: 1001;
+            transition: width 0.1s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="container">
+            <div class="nav">
+                <a href="#home" class="logo">
+                    <i class="fas fa-code"></i>
+                    NK
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                    <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                    <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                    <li><a href="#journey" class="nav-link" data-section="journey">Journey</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav">
+                <li><a href="#home" class="mobile-nav-link" data-section="home">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link" data-section="about">About</a></li>
+                <li><a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#skills" class="mobile-nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#journey" class="mobile-nav-link" data-section="journey">Journey</a></li>
+                <li><a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text animate-on-scroll">
+                    <h2 class="hero-title-th">ผู้ประกอบการสร้างสรรค์ และ ผู้อำนวยการฝ่ายปฏิบัติการ</h2>
+                    <h1 class="hero-title">Creative Innovation Meets Strategic Execution</h1>
+                    <p class="hero-subtitle">
+                        เป็นผู้ประกอบการและผู้อำนวยการฝ่ายปฏิบัติการที่เชี่ยวชาญในการผสมผสานความเชี่ยวชาญด้านสื่อสร้างสรรค์กับการดำเนินธุรกิจเชิงข้อมูล เปลี่ยนแนวคิดใหม่ให้กลายเป็นความสำเร็จที่สร้างกำไรได้จริง
+                        <br><br>
+                        Entrepreneur & COO transforming ambitious visions into profitable realities through the perfect blend of creative media expertise and data-driven business operations.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Industries<br>อุตสาหกรรม</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">AI</span>
+                            <span class="stat-label">Solutions<br>โซลูชัน</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">MSc</span>
+                            <span class="stat-label">Student<br>นักศึกษา</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            Explore My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image animate-on-scroll">
+                    <img src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=aaC4mdWtmr8Q7kNvwGT8qQy&_nc_oc=AdlKEV8JWd--ww4zSO7DetJsjyceRBIFpmVm1xF0eoy3ZA7UlmtmesZ8Caf_j6GRz9zKtlyL67xTI5JhoxItpRiC&_nc_zt=24&_nc_ht=scontent.fkkc3-1.fna&_nc_gid=9FZRe_QmkBz_bKO2ksHsYA&oh=00_AfMYesyp026c5vyfXeGTFs_OkuBTPueGC2ZOFDEUwwyMCA&oe=684CC297" 
+                         alt="Nuttakarn Wongtippanad - Creative Entrepreneur & COO" 
+                         class="hero-avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h3 class="section-title-th">การเชื่อมโยงความคิดสร้างสรรค์กับการค้า</h3>
+                <h2 class="section-title">Bridging Creativity & Commerce</h2>
+                <p class="section-subtitle">
+                    ผู้เชี่ยวชาญในจุดตัดที่หายากระหว่างการผลิตสื่อสร้างสรรค์และการดำเนินธุรกิจเชิงกลยุทธ์
+                    <br>
+                    Specializing in the rare intersection of creative media production and strategic business operations
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <p>
+                        ในฐานะผู้ประกอบการหลากหลายสาขาและผู้อำนวยการฝ่ายปฏิบัติการ ข้าพเจ้าเชี่ยวชาญในจุดตัดที่หายากระหว่างการผลิตสื่อสร้างสรรค์และการดำเนินธุรกิจเชิงกลยุทธ์ ปัจจุบันกำลังศึกษาปริญญาโทด้านการประกอบการและนวัตกรรม โดยนำมุมมองเฉพาะตัวที่เปลี่ยนแนวคิดสร้างสรรค์ให้กลายเป็นธุรกิจขยายตัวได้
+                    </p>
+                    <p>
+                        As a multidisciplinary entrepreneur and Chief Operating Officer, I specialize in the rare intersection of creative media production and strategic business operations. Currently pursuing my MSc in Entrepreneurship and Innovation, I bring a unique perspective that transforms creative concepts into scalable business ventures.
+                    </p>
+                    <p>
+                        แนวทางของข้าพเจ้าผสมผสานการวิเคราะห์เชิงข้อมูลกับการเล่าเรื่องที่เป็นนวัตกรรม ไม่ว่าจะเป็นการพัฒนาโซลูชันด้านสุขภาพที่ใช้ปัญญาประดิษฐ์ การขยายธุรกิจร้านอาหาร หรือการกำกับเรื่องเล่าภาพที่น่าสนใจ ความเชี่ยวชาญผสมผสานนี้ช่วยให้มองเห็นโอกาสที่ผู้อื่นไม่เห็น และดำเนินการโซลูชันที่สร้างความประทับใจทั้งในแง่สร้างสรรค์และเชิงการค้า
+                    </p>
+                    <ul class="about-highlights">
+                        <li class="highlight">
+                            <i class="fas fa-check-circle highlight-icon"></i>
+                            <span>นวัตกรรมข้ามอุตสาหกรรม (สื่อ + เทคโนโลยี + การบริการ) / Cross-Industry Innovation</span>
+                        </li>
+                        <li class="highlight">
+                            <i class="fas fa-check-circle highlight-icon"></i>
+                            <span>การดำเนินการครบวงจร (กลยุทธ์สู่การปฏิบัติ) / End-to-End Execution</span>
+                        </li>
+                        <li class="highlight">
+                            <i class="fas fa-check-circle highlight-icon"></i>
+                            <span>การผสานปัญญาประดิษฐ์และเทคโนโลยีใหม่ / AI & Emerging Technology Integration</span>
+                        </li>
+                        <li class="highlight">
+                            <i class="fas fa-check-circle highlight-icon"></i>
+                            <span>ผลตอบแทนจากความคิดสร้างสรรค์ที่วัดได้ / Measurable Creative ROI</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image-container animate-on-scroll">
+                    <div class="about-decoration"></div>
+                    <img src="https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=aaC4mdWtmr8Q7kNvwGT8qQy&_nc_oc=AdlKEV8JWd--ww4zSO7DetJsjyceRBIFpmVm1xF0eoy3ZA7UlmtmesZ8Caf_j6GRz9zKtlyL67xTI5JhoxItpRiC&_nc_zt=24&_nc_ht=scontent.fkkc3-1.fna&_nc_gid=9FZRe_QmkBz_bKO2ksHsYA&oh=00_AfMYesyp026c5vyfXeGTFs_OkuBTPueGC2ZOFDEUwwyMCA&oe=684CC297" 
+                         alt="About Nuttakarn" 
+                         style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow-lg);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section bg-light" id="projects">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h3 class="section-title-th">ผลงานที่โดดเด่น</h3>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    การนำแนวคิดสร้างสรรค์ไปสู่ผลลัพธ์ทางธุรกิจที่วัดผลได้
+                    <br>
+                    Transforming creative concepts into measurable business outcomes
+                </p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: EarEssence -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title-th">แพลตฟอร์มโสตศาสตร์ระบบ AI</h4>
+                        <h4 class="project-title">AI-Powered Audiological Platform</h4>
+                        <p class="project-role">Product Designer & Business Analyst</p>
+                        <p class="project-description">
+                            ปฏิวัติการดูแลสุขภาพการได้ยินผ่านการปรับแต่งด้วย AI สร้างแพลตฟอร์มที่ใช้งานง่าย เชื่อมโยงเทคโนโลยีทางการแพทย์ที่ซับซ้อนกับการออกแบบที่ใช้งานง่าย
+                            <br><br>
+                            Revolutionizing hearing healthcare through AI-driven personalization, creating an intuitive platform that bridges complex medical technology with user-friendly design.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">UX/UI Design</span>
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Business Analytics</span>
+                        </div>
+                        <a href="#contact" class="project-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Salayte Hashery -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title-th">การเปลี่ยนผ่านทางดิจิทัลของแบรนด์ร้านอาหาร</h4>
+                        <h4 class="project-title">Restaurant Brand Digital Revolution</h4>
+                        <p class="project-role">Marketing Manager & Content Creator</p>
+                        <p class="project-description">
+                            เปลี่ยนการตลาดร้านอาหารแบบดั้งเดิมผ่านการสร้างเนื้อหา TikTok เชิงกลยุทธ์และการวางตำแหน่งแบรนด์อย่างเป็นระบบ ขับเคลื่อนการเติบโตที่วัดผลได้ในการมีส่วนร่วมของลูกค้าและรายได้
+                            <br><br>
+                            Transformed traditional restaurant marketing through strategic TikTok content creation and systematic brand positioning, driving measurable growth in customer engagement and revenue.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">TikTok Marketing</span>
+                            <span class="tag">Content Strategy</span>
+                            <span class="tag">Brand Development</span>
+                            <span class="tag">POS Systems</span>
+                        </div>
+                        <a href="#contact" class="project-link">
+                            See Marketing Results <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: The Secret Zong -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title-th">การผลิตภาพยนตร์สั้นแบบอิสระ</h4>
+                        <h4 class="project-title">Independent Short Film Production</h4>
+                        <p class="project-role">Director, Scriptwriter & Cinematographer</p>
+                        <p class="project-description">
+                            ควบคุมความคิดสร้างสรรค์ของภาพยนตร์สั้นเรื่องราวอย่างสมบูรณ์ แสดงให้เห็นความสามารถในการจัดการโครงการสร้างสรรค์ที่ซับซ้อนตั้งแต่แนวคิดจนถึงการส่งมอบขั้นสุดท้าย ในขณะที่รักษาวิสัยทัศน์ทางศิลปะและประสิทธิภาพการผลิต
+                            <br><br>
+                            Complete creative control of narrative short film, demonstrating ability to manage complex creative projects from concept to final delivery while maintaining artistic vision and production efficiency.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Film Direction</span>
+                            <span class="tag">Scriptwriting</span>
+                            <span class="tag">Cinematography</span>
+                            <span class="tag">Project Management</span>
+                        </div>
+                        <a href="#contact" class="project-link">
+                            Watch Film Trailer <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h3 class="section-title-th">ความเชี่ยวชาญและทักษะ</h3>
+                <h2 class="section-title">Expertise & Skills</h2>
+                <p class="section-subtitle">
+                    ชุดทักษะที่ครอบคลุมการเชื่อมโยงความคิดสร้างสรรค์กับผลลัพธ์ทางธุรกิจ
+                    <br>
+                    Comprehensive skillset bridging creative vision with business outcomes
+                </p>
+            </div>
+            <div class="skills-grid">
+                <!-- Business Strategy & Operations -->
+                <div class="skill-category animate-on-scroll">
+                    <h4 class="category-title">
+                        <i class="fas fa-chart-line category-icon"></i>
+                        <div>
+                            <div class="category-title-th">กลยุทธ์ธุรกิจและการดำเนินงาน</div>
+                            Business Strategy & Operations
+                        </div>
+                    </h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Business Analysis & Strategy</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Operations Management</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Financial Planning</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>POS System Optimization</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Creative & Media Production -->
+                <div class="skill-category animate-on-scroll">
+                    <h4 class="category-title">
+                        <i class="fas fa-palette category-icon"></i>
+                        <div>
+                            <div class="category-title-th">ความสร้างสรรค์และการผลิตสื่อ</div>
+                            Creative & Media Production
+                        </div>
+                    </h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Content Strategy</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Video Production & Editing</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Social Media Marketing</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>TikTok Optimization</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technology & Innovation -->
+                <div class="skill-category animate-on-scroll">
+                    <h4 class="category-title">
+                        <i class="fas fa-microchip category-icon"></i>
+                        <div>
+                            <div class="category-title-th">เทคโนโลยีและนวัตกรรม</div>
+                            Technology & Innovation
+                        </div>
+                    </h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UX/UI Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>AI Integration</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>3D Printing & Prototyping</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Data Analytics</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="--skill-width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="section bg-light" id="journey">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h3 class="section-title-th">เส้นทางความสำเร็จ</h3>
+                <h2 class="section-title">Professional Journey</h2>
+                <p class="section-subtitle">
+                    การเดินทางการเรียนรู้และการเติบโตอย่างต่อเนื่อง
+                    <br>
+                    A path of continuous learning and growth across multiple disciplines
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <h4 class="timeline-title">MSc Entrepreneurship & Innovation (In Progress)</h4>
+                        <p class="timeline-description">
+                            การศึกษาขั้นสูงในกลยุทธ์การเริ่มต้นธุรกิจและการจัดการนวัตกรรม เพื่อเสริมสร้างความเชี่ยวชาญด้านการประกอบการ
+                            <br><br>
+                            Advanced studies in startup strategy and innovation management, enhancing entrepreneurial expertise with academic rigor.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <h4 class="timeline-title">EarEssence AI Platform Development</h4>
+                        <p class="timeline-description">
+                            การออกแบบผลิตภัณฑ์และการวิเคราะห์ธุรกิจสำหรับสตาร์ทอัพด้านการดูแลสุขภาพที่ใช้ปัญญาประดิษฐ์ สร้างโซลูชันที่เน้นผู้ใช้สำหรับเทคโนโลยีการแพทย์ที่ซับซ้อน
+                            <br><br>
+                            Product design and business analysis for healthcare AI startup, creating user-centered solutions for complex medical technology.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h4 class="timeline-title">Salayte Hashery Marketing Leadership</h4>
+                        <p class="timeline-description">
+                            การเปลี่ยนผ่านทางดิจิทัลและกลยุทธ์เนื้อหาสำหรับแบรนด์การบริการ พัฒนากลยุทธ์สื่อสังคมออนไลน์ที่สร้างการมีส่วนร่วมและขับเคลื่อนการเติบโต
+                            <br><br>
+                            Digital transformation and content strategy for hospitality brand, developing social media strategies that drive engagement and growth.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h4 class="timeline-title">The Secret Zong Film Direction</h4>
+                        <p class="timeline-description">
+                            การจัดการโครงการสร้างสรรค์ที่สมบูรณ์และการดำเนินการ การออกแบบและผลิตภาพยนตร์สั้นจากแนวคิดถึงการส่งมอบขั้นสุดท้าย
+                            <br><br>
+                            Complete creative project management and execution, conceptualizing and producing a narrative short film from idea to final delivery.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2021</div>
+                        <h4 class="timeline-title">Media & Communication Foundation</h4>
+                        <p class="timeline-description">
+                            ปริญญาตรีด้านสื่อและการสื่อสาร เน้นการสร้างเนื้อหาดิจิทัลและกลยุทธ์การสื่อสาร สร้างรากฐานที่แข็งแกร่งในการผลิตสื่อและการจัดการแบรนด์
+                            <br><br>
+                            Bachelor's degree in Media and Communication with focus on digital content creation and communication strategy, building strong foundation in media production and brand management.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h3 class="section-title-th">เริ่มต้นการสนทนา</h3>
+                <h2 class="section-title">Let's Start a Conversation</h2>
+                <p class="section-subtitle">
+                    พร้อมที่จะสร้างสรรค์บางสิ่งที่น่าอัศจรรย์ร่วมกัน มาคุยกันเกี่ยวกับโครงการต่อไปของคุณ
+                    <br>
+                    Ready to create something amazing together? Let's discuss your next project.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Get In Touch</h3>
+                    <h4>ติดต่อข้าพเจ้า</h4>
+                    <p>
+                        ไม่ว่าคุณจะต้องการความช่วยเหลือด้านกลยุทธ์ธุรกิจ การพัฒนาผลิตภัณฑ์ หรือแนวคิดสร้างสรรค์ ข้าพเจ้ายินดีที่จะช่วยเปลี่ยนวิสัยทัศน์ของคุณให้เป็นจริง
+                        <br><br>
+                        Whether you need help with business strategy, product development, or creative ideation, I'm here to help transform your vision into reality.
+                    </p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <strong>Email</strong>
+                            <p>nuttakarn.won@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <strong>Phone / โทรศัพท์</strong>
+                            <p>Available upon request / ขอได้เมื่อติดต่อ</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <strong>Location / สถานที่</strong>
+                            <p>Thailand / ประเทศไทย</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="mailto:nuttakarn.won@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form animate-on-scroll">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name / ชื่อ *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email / อีเมล *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject / หัวข้อ</label>
+                            <input type="text" id="subject" name="subject" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message / ข้อความ *</label>
+                            <textarea id="message" name="message" class="form-textarea" required placeholder="Tell me about your project or how I can help you... / บอกเล่าเกี่ยวกับโครงการของคุณหรือว่าฉันจะช่วยคุณได้อย่างไร..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message / ส่งข้อความ
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Nuttakarn Wongtippanad. All rights reserved. / สงวนลิขสิทธิ์ทุกประการ</p>
+        </div>
+    </footer>
+
+    <script>
+        // DOM Elements
+        const header = document.getElementById('header');
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+        const scrollProgress = document.getElementById('scrollProgress');
+        const loading = document.getElementById('loading');
+        const contactForm = document.getElementById('contactForm');
+
+        // Loading Animation
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                loading.classList.add('fade-out');
+                setTimeout(() => {
+                    loading.style.display = 'none';
+                }, 500);
+            }, 1000);
+        });
+
+        // Header Scroll Effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            // Update scroll progress
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollProgress = (window.scrollY / scrollHeight) * 100;
+            document.getElementById('scrollProgress').style.width = `${scrollProgress}%`;
+        });
+
+        // Mobile Menu Toggle
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            const icon = mobileMenuToggle.querySelector('i');
+            if (mobileMenu.classList.contains('active')) {
+                icon.classList.replace('fa-bars', 'fa-times');
+            } else {
+                icon.classList.replace('fa-times', 'fa-bars');
+            }
+        });
+
+        // Navigation Active State and Smooth Scrolling
+        function setActiveLink(targetId) {
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('data-section') === targetId) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('data-section');
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    const headerHeight = header.offsetHeight;
+                    const targetPosition = targetElement.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                    
+                    setActiveLink(targetId);
+                    
+                    // Close mobile menu if open
+                    if (mobileMenu.classList.contains('active')) {
+                        mobileMenu.classList.remove('active');
+                        mobileMenuToggle.querySelector('i').classList.replace('fa-times', 'fa-bars');
+                    }
+                }
+            });
+        });
+
+        // Intersection Observer for Navigation
+        const sections = document.querySelectorAll('section[id]');
+        const observerOptions = {
+            root: null,
+            rootMargin: '-50px 0px -50px 0px',
+            threshold: 0.3
+        };
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setActiveLink(entry.target.id);
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+
+        // Scroll Animation Observer
+        const animateElements = document.querySelectorAll('.animate-on-scroll');
+        const animateObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        animateElements.forEach(element => {
+            animateObserver.observe(element);
+        });
+
+        // Skills Animation Observer
+        const skillItems = document.querySelectorAll('.skill-item');
+        const skillsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        skillItems.forEach(item => {
+            skillsObserver.observe(item);
+        });
+
+        // Contact Form Handling
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData(contactForm);
+            const formObject = Object.fromEntries(formData);
+            
+            // Show loading state
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            submitButton.disabled = true;
+            
+            // Simulate form submission (replace with actual form handling)
+            setTimeout(() => {
+                alert('Thank you for your message! I\'ll get back to you soon.\n\nขอบคุณสำหรับข้อความของคุณ! ฉันจะตอบกลับเร็วๆ นี้');
+                contactForm.reset();
+                submitButton.innerHTML = originalText;
+                submitButton.disabled = false;
+            }, 2000);
+        });
+
+        // Parallax Effect for Hero Section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.hero');
+            
+            parallaxElements.forEach(element => {
+                const speed = 0.5;
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+
+        // Typing Animation for Hero Title (Optional Enhancement)
+        function typeWriter(element, text, speed = 100) {
+            let i = 0;
+            element.innerHTML = '';
+            function type() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+
+        // Initialize typing animation when page loads
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const heroTitle = document.querySelector('.hero-title');
+                if (heroTitle) {
+                    const originalText = heroTitle.textContent;
+                    typeWriter(heroTitle, originalText, 50);
+                }
+            }, 1500);
+        });
+
+        // Add click animations to buttons
+        const buttons = document.querySelectorAll('.btn');
+        buttons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                const ripple = document.createElement('span');
+                const rect = this.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size / 2;
+                const y = e.clientY - rect.top - size / 2;
+                
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.background = 'rgba(255, 255, 255, 0.3)';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s linear';
+                ripple.style.pointerEvents = 'none';
+                
+                this.style.position = 'relative';
+                this.style.overflow = 'hidden';
+                this.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+        });
+
+        // Add CSS for ripple animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(2);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Enhanced scroll animations
+        const observerCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease forwards';
+                    observer.unobserve(entry.target);
+                }
+            });
+        };
+
+        const enhancedObserver = new IntersectionObserver(observerCallback, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        // Progressive loading for images
+        const images = document.querySelectorAll('img[src]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.style.opacity = '0';
+                    img.style.transition = 'opacity 0.3s ease';
+                    
+                    const tempImg = new Image();
+                    tempImg.onload = () => {
+                        img.style.opacity = '1';
+                    };
+                    tempImg.src = img.src;
+                    
+                    observer.unobserve(img);
+                }
+            });
+        });
+
+        images.forEach(img => {
+            imageObserver.observe(img);
+        });
+
+        // Add hover effects to project cards
+        const projectCards = document.querySelectorAll('.project-card');
+        projectCards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-8px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Performance optimization: Debounce scroll events
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Apply debounce to scroll events
+        const debouncedScrollHandler = debounce((e) => {
+            // Your scroll handling code here
+            updateScrollProgress();
+        }, 10);
+
+        function updateScrollProgress() {
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollProgress = (window.scrollY / scrollHeight) * 100;
+            document.getElementById('scrollProgress').style.width = `${scrollProgress}%`;
+        }
+
+        window.addEventListener('scroll', debouncedScrollHandler);
+
+        // Add accessibility improvements
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.querySelector('i').classList.replace('fa-times', 'fa-bars');
+            }
+        });
+
+        // Focus management for mobile menu
+        mobileMenuToggle.addEventListener('click', () => {
+            if (mobileMenu.classList.contains('active')) {
+                // Focus first menu item when opened
+                setTimeout(() => {
+                    const firstMenuItem = mobileMenu.querySelector('.mobile-nav-link');
+                    if (firstMenuItem) firstMenuItem.focus();
+                }, 100);
+            }
+        });
+
+        console.log('Portfolio initialized successfully! 🚀');
+    </script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nuttakarn Wongtippanad",
+        "jobTitle": "Entrepreneur & Chief Operating Officer",
+        "description": "Creative entrepreneur and COO specializing in AI innovation, digital marketing, and strategic business development.",
+        "url": "",
+        "email": "nuttakarn.won@gmail.com",
+        "image": "https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-1/332686189_1323130911589739_4843570193886425659_n.jpg",
+        "knowsAbout": [
+            "Business Strategy",
+            "AI Innovation",
+            "Digital Marketing",
+            "Content Creation",
+            "UX/UI Design",
+            "Project Management",
+            "Entrepreneurship"
+        ],
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "MSc Entrepreneurship & Innovation"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Multiple Ventures"
+        }
+    }
+    </script>
+</body>
+</html>
